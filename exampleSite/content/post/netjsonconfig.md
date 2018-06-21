@@ -2,16 +2,18 @@
 title: First steps with Pivotal Container Service (PKS)
 date: 2018-06-19 07:58:40 +0000
 tags:
+- NSX-T
 - Pivotal
 - PKS
 categories:
+- Kubernetes
 - Containers
 description: Tips and Tricks I discovered using Pivotal Container Services (PKS)
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSCover.png
 draft: false
 
 ---
-I like Kubernetes and Containers so i set out to install Pivotal container service (PKS). I followed some good blog posts so i am going to provide link to them and add some commands and tricks that I found useful.
+I like Kubernetes and Containers so I set out to install Pivotal container service (PKS). I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful.
 
 # What's PKS?
 
@@ -25,7 +27,7 @@ Get some coffee and have a VMware environment available. I used my lab: a few ES
 
 # Installing NSX-T
 
-The installation instructions for this this have been well-documented by my good friends at VMware
+The installation instructions for this this have been well-documented by my good friends at VMware so i will post a few links here
 
  I was also on the lookout for bugs in the module and most of the bugs seem to be related with it since it's a bit outdated now.
 I then activated the `virtualenv` and started entering the installation commands according to the instructions in the repository. Everything went on smoothly until the `python setup.py develop` command. I got an error as shown in the below picture.
