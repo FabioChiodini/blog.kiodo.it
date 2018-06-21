@@ -1,6 +1,6 @@
-baseURL = "http://dream-plus.netlify.com/"
+baseURL = "https://gifted-raman-00870e.netlify.com/"
 defaultContentLanguage = "en"
-disqusShortname = "dream-plus"
+disqusShortname = "https-gifted-raman-00870e-netlify-com"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en-us"
@@ -9,7 +9,7 @@ pygmentsOptions = "linenos=table"
 pygmentsUseClasses = true
 theme = "dream-plus"
 themesDir = "../../"
-title = "UtkarshVerma's Blog"
+title = "Fabio Chiodini's Blog"
 [params]
 author = "Fabio Chiodini"
 avatar = "https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/ZBackground.jpg"
@@ -27,9 +27,9 @@ itemsPerPage = 4
 motto = "Always be learning!!!"
 twitterEmoji = true
 [social]
-email = "utkarshverma@pm.me"
-github = "UtkarshVerma"
+email = ""
+github = "FabioChiodini"
 medium = "UtkarshVerma_"
 siteStartYear = 2018
-stackoverflow = "9271608/utkarsh-verma"
-twitter = "UtkarshVerma_"
+stackoverflow = ""
+twitter = "FabioChiodini"
