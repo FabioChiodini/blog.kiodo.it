@@ -152,6 +152,20 @@ First determine the deployment name with
 
     bosh deployments
 
+## PKS Deployment Troubleshooting
+
+If you get an error like this in your BOSH logs:
+
+    I0615 08:19:22.962041   12746 cloudprovider.go:59] --external-hostname was not specified. Trying to get it from the cloud provider.
+
+    error setting the external host value: "vsphere" cloud provider could not be initialized: could not init cloud provider "vsphere": 3:6: unquoted '\' must be followed by new line
+
+Then I have a fix for You ;)
+
+If you are using a domain account make sure you are using the user@domain notation and **no**_t_ the domain\\account one:
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSErrorSlash.png)
+
 # Conclusion
 
 It was a great learning experience so hopefully the same applies to You. Stay tuned for more :)
