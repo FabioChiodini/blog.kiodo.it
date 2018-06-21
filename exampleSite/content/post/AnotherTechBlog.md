@@ -7,7 +7,7 @@ tags:
 categories:
 - blogging
 description: Why are we here
-cover: ''
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/HaveYouTried.jpg
 
 ---
 
