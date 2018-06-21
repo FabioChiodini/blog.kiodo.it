@@ -2,6 +2,7 @@
 title: First steps with Pivotal Container Service (PKS)
 date: 2018-06-19 07:58:40 +0000
 tags:
+- BOSH
 - NSX-T
 - Pivotal
 - PKS
@@ -66,52 +67,6 @@ I especially recommend this if you are totally new to NSX-T:
 I have largely simplified the setup provide by  Mr Lam as my 
 
 # Troubleshooting BOSH
-
-I was also on the lookout for bugs in the module and most of the bugs seem to be related with it since it's a bit outdated now.
-I then activated the `virtualenv` and started entering the installation commands according to the instructions in the repository. Everything went on smoothly until the `python setup.py develop` command. I got an error as shown in the below picture.
-
-![develop failed](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png)
-
-Clearly, the error suggests that **Django v2.0.1** was being downloaded which **isn't supported** by **Python 2.7**. A bit of browsing led me to the conclusion that the `setup.py` needed to be modified to download **older Django versions** for Python 2.7. So, I added a simple `if-else` block to the django installation statement as shown in the picture.
-
-![setup.py fix](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/my-fix.png)
-
-If you're curious about my fix,  this is the [link](https://github.com/UtkarshVerma/django-netjsonconfig/commit/1575acbbc719e539cd8ecbffc761d8b9c2023d56).
-
-Here, what's being done is basically:
-
-* Detect `python` version used for installation using `sys.version_info\\\[0\\\]`.
-* Install older Django versions if `sys.version_info\\\[0\\\]<3`, that is `python2` is detected.
-* Install latest version if above condition isn't satisfied, that is `python3` is detected.
-
-I also had to remove the django installation line from `requirements.txt` since `setup.py` was fetching the requirement names from there. After applying this fix, I re-ran the `python setup.py develop` command and there it was! The sweet smell of success. Now an **older yet python2 compatible** version of **Django** was being installed when using `python2` as clearly shown in one of the pictures below:
-
-![Older Django being downloaded](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django-v-fixed.png)
-
-![Successful!](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/Success!.png)
-
-After this, I installed some more requirements using `pip install -r requirements-test.txt`
-This was how I'd finished installing `django-netjsonconfig` using Python2. Now all that was left to do was to to do the migrations and run the server.
-
-# Making Migrations and Creating a superuser
-
-By referring to the instructions on the repo again, I opened the `tests` directory,
-did the migrations using `./manage.py migrate`. It was really satisfying to see all the CLI responses coloured in **green**. :smile:
-![Migrate](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/migrate.png)
-
-After that, there was the superuser creation using `./manage.py createsuperuser`.
-
-![Superuser creation](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/superuser.png)
-
-# Running the Test Server
-
-I started the test server using `./manage.py runserver` and it was successful.
-
-![Server Up and Running!](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/up-and-running.png)
-
-I could also now visit the server at [http://localhost:8000/admin](http://localhost/admin).
-
-![Logged In](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/logged-in.png)
 
 # Conclusion
 
