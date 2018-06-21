@@ -13,7 +13,9 @@ cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/imag
 draft: false
 
 ---
-I like Kubernetes and Containers so I set out to install Pivotal container service (PKS). I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful.
+I like Kubernetes and Containers so I set out to install Pivotal container service (PKS). 
+
+I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful (just go to the paragraph marked as **my field notes**.
 
 # What's PKS?
 
@@ -30,10 +32,14 @@ Get some coffee and have a VMware environment available. I used my lab: a few ES
 If you want to leverage the full power of PKS (ie all integrations) thsi is the high level install process:
 
 * Fix prerequisistes
-* Install NSX-T
+* Install NSX-T for managing K8S network constructs and add-ons
 * Prepare NSX-T constructs for PKS
 * Install Ops Manager and BOSH
 * Install PKS
+* Deploy a Kubernetes Cluster
+* Install Harbor to manage container images
+* Install VMware vRealize Log Insight (vRLI) to get the logs from your environment
+* Install VMware vRealize Operations Manager (vROps) to monitor your infrastructure
 
 # Resources I have used
 
@@ -41,17 +47,27 @@ Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be 
 
 [https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html](https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html "William Lam Blog")
 
+As this blog post may appear daunting you may start reading a smaller version provided by the always amazing Cormac Hogan:
+
+[https://cormachogan.com/2018/04/24/a-simple-pivotal-container-service-pks-deployment/](https://cormachogan.com/2018/04/24/a-simple-pivotal-container-service-pks-deployment/ "Faster setup")
+
 ## My field notes
 
 # Installing NSX-T
 
-The installation instructions for this this have been well-documented by my good friends at VMware so I will post a few links here
+The installation instructions for this this have been well-documented by my good friends at VMware so you can refer to the previous posts.
+
+I especially recommend this if you are totally new to NSX-T:
+
+[https://cormachogan.com/2018/04/11/building-a-simple-esxi-host-overlay-network-with-nsx-t/](https://cormachogan.com/2018/04/11/building-a-simple-esxi-host-overlay-network-with-nsx-t/ "NSX-T simpler")
 
 ## My field notes
 
+I have largely simplified the setup provide by  Mr Lam as my 
+
 # Troubleshooting BOSH
 
- I was also on the lookout for bugs in the module and most of the bugs seem to be related with it since it's a bit outdated now.
+I was also on the lookout for bugs in the module and most of the bugs seem to be related with it since it's a bit outdated now.
 I then activated the `virtualenv` and started entering the installation commands according to the instructions in the repository. Everything went on smoothly until the `python setup.py develop` command. I got an error as shown in the below picture.
 
 ![develop failed](https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png)
@@ -64,8 +80,8 @@ If you're curious about my fix,  this is the [link](https://github.com/UtkarshVe
 
 Here, what's being done is basically:
 
-* Detect `python` version used for installation using `sys.version_info\[0\]`.
-* Install older Django versions if `sys.version_info\[0\]<3`, that is `python2` is detected.
+* Detect `python` version used for installation using `sys.version_info\\\[0\\\]`.
+* Install older Django versions if `sys.version_info\\\[0\\\]<3`, that is `python2` is detected.
 * Install latest version if above condition isn't satisfied, that is `python3` is detected.
 
 I also had to remove the django installation line from `requirements.txt` since `setup.py` was fetching the requirement names from there. After applying this fix, I re-ran the `python setup.py develop` command and there it was! The sweet smell of success. Now an **older yet python2 compatible** version of **Django** was being installed when using `python2` as clearly shown in one of the pictures below:
@@ -99,4 +115,4 @@ I could also now visit the server at [http://localhost:8000/admin](http://localh
 
 # Conclusion
 
-So, that's how I installed the **django-netjsonconfig** module. Also, I've commited my fixes to my **forked repo** [here](https://github.com/UtkarshVerma/django-netjsonconfig). Here's the [link to my pull request](https://github.com/openwisp/django-netjsonconfig/pull/71). That concludes this post.
+It was a great learning experience so hopefully the same applies to You. Stay tuned for more :)
