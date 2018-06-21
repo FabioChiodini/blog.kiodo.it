@@ -154,6 +154,14 @@ to get an overview of your deployed environment
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHINSTANCES.png)
 
+## Getting IPs and VM names
+
+if you need to figure out the name of the VMs in vCenter or the IPs to test connectivity here's your fiend:
+
+    bosh vms
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHVMS.png)
+
 ## Getting the logs from a bosh deployment
 
 if your BOSH deployments is misbehaving you should definitely check the extensive logs provided by it.
