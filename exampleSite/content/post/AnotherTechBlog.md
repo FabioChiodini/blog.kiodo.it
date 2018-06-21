@@ -1,6 +1,6 @@
 ---
 title: Another tech Blog?
-date: 2018-06-18 12:29:43 +0000
+date: 2018-06-15 14:29:43 +0200
 draft: false
 tags:
 - blog
