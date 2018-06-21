@@ -12,7 +12,7 @@ themesDir = "../../"
 title = "UtkarshVerma's Blog"
 [params]
 author = "Fabio Chiodini"
-avatar = "images/ZBackground.jpg"
+avatar = "https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/ZBackground.jpg"
 bgBlur = "0px"
 bgImage = "http://bit.ly/2gPLxZ4"
 contentType = "post"
