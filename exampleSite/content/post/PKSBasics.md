@@ -152,6 +152,14 @@ First determine the deployment name with
 
     bosh deployments
 
+You can then get the deployment logs using:
+
+    bosh logs -d deploymentname
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHLOGSCLI.png)
+
+Than just untar the logs and go through  them ;)
+
 ## PKS Deployment Troubleshooting
 
 If you get an error like this in your BOSH logs:
@@ -165,6 +173,22 @@ Then I have a fix for You ;)
 If you are using a domain account make sure you are using the user@domain notation and **no**_t_ the domain\\account one:
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSErrorSlash.png)
+
+## BOSH Authentication errors
+
+If you mess up (like I did) you may find yourself unable to authenticate to BOSH remotely via CLI.
+
+No worries this flag may come to your rescue:
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHRecreate.png)
+
+Just flag it and apply changes.
+
+I found out that it will fix the inconsistency.
+
+**Remember** that after the redeploy the authentication token **BOSH_CLIENTSECRET** will change so obtain a new one using:
+
+    om --target https://opsmanager.vmlive.italy -u admin -p 'YourPWD' -k curl -p /api/v0/deployed/director/credentials/bosh2_commandline_credentials -s | jq -r '.credential'
 
 # Conclusion
 
