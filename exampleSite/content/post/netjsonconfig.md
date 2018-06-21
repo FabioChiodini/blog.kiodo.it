@@ -6,8 +6,7 @@ tags:
 - PKS
 categories:
 - Containers
-description: The challenges which I faced while installing and using Pivotal Container
-  services
+description: Tips and Tricks I discovered using Pivotal Container Services (PKS)
 cover: https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png
 draft: false
 
