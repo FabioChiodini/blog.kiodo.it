@@ -1,15 +1,16 @@
 ---
-title: "Testing \"django-netjsonconfig\""
-date: 2018-01-14T14:28:40+05:30
+title: First steps with Pivotal Container Service (PKS)
+date: 2018-06-19 07:58:40 +0000
 tags:
-- google code in
-- openwisp
-- django
+- Pivotal
+- PKS
 categories:
-- programming
-description : "The challenges which I faced while installing and using **django-netjsonconfig**. "
-cover: "https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png"
+- Containers
+description: The challenges which I faced while installing and using Pivotal Container
+  services
+cover: https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png
 draft: false
+
 ---
 A task came up in Google Code-in which asked me to install the [django-netjsonconfig](https://github.com/openwisp/django-netjsonconfig) module by [OpenWISP](https://www.openwisp.org). Furthermore, I'm also supposed to share the challenges I faced during the set-up process as a sort of feedback. I'll be trying be concise in this post so, without further ado, I'm beginning with this post.
 
