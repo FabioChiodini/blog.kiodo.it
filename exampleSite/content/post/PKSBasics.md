@@ -144,6 +144,16 @@ if you are new to BOSH I want to provide You with some basic command to troubles
 
 So here are some examples ;)
 
+### Getting BOSH status
+
+You can use the command
+
+    bosh instances
+
+to get an overview of your deployed environment
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHINSTANCES.png)
+
 ## Getting the logs from a bosh deployment
 
 if your BOSH deployments is misbehaving you should definitely check the extensive logs provided by it.
