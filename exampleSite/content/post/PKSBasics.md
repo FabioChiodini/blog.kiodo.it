@@ -132,7 +132,7 @@ To check in on the Vyatta side just use:
 
 The NSX manager must be reachable by all the elements that you see in the diagram.
 
-If you messed up (like I did) you can still edit the routes by using a command line this
+If you messed up (like I did :P ) you can still edit the routes by using a command line this
 
     set route prefix 0.0.0.0/0 gateway 10.64.167.254
 
@@ -145,6 +145,12 @@ if you are new to BOSH I want to provide You with some basic command to troubles
 So here are some examples ;)
 
 ## Getting the logs from a bosh deployment
+
+if your BOSH deployments is misbehaving you should definitely check the extensive logs provided by it.
+
+First determine the deployment name with
+
+    bosh deployments
 
 # Conclusion
 
