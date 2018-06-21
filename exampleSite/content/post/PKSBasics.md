@@ -194,7 +194,7 @@ To troubleshoot your deployments you may need to have a look at the related even
 
     bosh events --deployment deploymentname
 
-![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHEvents.png)
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHEVENTS.png)
 
 ## BOSH Cloud Check
 
