@@ -39,9 +39,10 @@ If you want to leverage the full power of PKS (ie all integrations) this is the 
 * Install Ops Manager and **BOSH**
 * Install PKS
 * Deploy a **Kubernetes Cluster**
-* Install Harbor to manage container images
+* Install Harbor to **manage container images**
 * Install VMware vRealize Log Insight (vRLI) to get the **logs** from your environment
-* Install VMware vRealize Operations Manager (vROps) to monitor your infrastructure
+* Install VMware vRealize Operations Manager (vROps) to **monitor your infrastructure**
+* Connect your setup to VMware Wavefront to get application performance monitoring (and more Kubernetes monitoring as well)
 
 # Resources I have used
 
@@ -55,7 +56,11 @@ As this blog post may appear daunting you may start reading a smaller version pr
 
 ## My field notes
 
-Start small and make sure the environment is stable. Take your time to setup NSX-T. After that BOSH will help you a lot in uninstalling/reinstalling if needed ;)
+Start small and make sure the environment is stable. 
+
+Take your time to setup NSX-T. 
+
+After that BOSH will help you a lot in uninstalling/reinstalling if needed ;)
 
 # Installing NSX-T
 
@@ -228,6 +233,8 @@ I found out that it will fix the inconsistency.
 **Remember** that after the redeploy the authentication token **BOSH_CLIENTSECRET** will change so obtain a new one using:
 
     om --target https://opsmanager.vmlive.italy -u admin -p 'YourPWD' -k curl -p /api/v0/deployed/director/credentials/bosh2_commandline_credentials -s | jq -r '.credential'
+
+\[Just imagine doing this without a tool like BOSH or on a fully manual installation of Kubernetes :P \]
 
 # Conclusion
 
