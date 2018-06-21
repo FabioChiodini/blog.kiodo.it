@@ -1,53 +1,35 @@
 baseURL = "http://dream-plus.netlify.com/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "UtkarshVerma's Blog"
-theme = "dream-plus"
-themesDir = "../../"   #Don't use this, only for netlify
-
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
-
 disqusShortname = "dream-plus"
-
+enableEmoji = true
 enableRobotsTXT = true
-
-#Enable Hugo Emoji Conversion
-enableEmoji=true
-
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsOptions = "linenos=table"
+pygmentsUseClasses = true
+theme = "dream-plus"
+themesDir = "../../"
+title = "UtkarshVerma's Blog"
 [params]
-	author = "Utkarsh Verma"
-	description = "Just a random blog for random stuff, mostly tech-related."
-	avatar = "https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/myavatar.jpg"
-	motto = "A keen maker, programmer and an Instructables author."
-	enableToc = true
-	enableShareCard = true
-
-	favicon = "/img/defaultFav.ico"
-  	
-  	#Background settings
-	enableColorBG= false
-	bgBlur = "0px"
-	bgImage = "http://bit.ly/2gPLxZ4"
-  
-	#Post-displaying Settings
-	enableTags = true
-	enableCategories = true
-
-	#Cards or posts shown per page
-	itemsPerPage = 4
-
-	#Set whether you're hosting "cards" or "post"
-	contentType = "post"
-
-	#Enable Twitter Emoji
-	twitterEmoji=true
-
+author = "Fabio Chiodini"
+avatar = "images/ZBackground.jpg"
+bgBlur = "0px"
+bgImage = "http://bit.ly/2gPLxZ4"
+contentType = "post"
+description = "All the stuff that I like: Tech, Cloud Native Applications, Containers, Serverless and what's Next"
+enableCategories = true
+enableColorBG = false
+enableShareCard = true
+enableTags = true
+enableToc = true
+favicon = "/img/defaultFav.ico"
+itemsPerPage = 4
+motto = "Always be learning!!!"
+twitterEmoji = true
 [social]
-	email = "utkarshverma@pm.me"
-	github = "UtkarshVerma"
-	stackoverflow = "9271608/utkarsh-verma"
-	medium = "UtkarshVerma_"
-	twitter = "UtkarshVerma_" 
-	siteStartYear = 2018
+email = "utkarshverma@pm.me"
+github = "UtkarshVerma"
+medium = "UtkarshVerma_"
+siteStartYear = 2018
+stackoverflow = "9271608/utkarsh-verma"
+twitter = "UtkarshVerma_"
