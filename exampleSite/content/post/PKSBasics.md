@@ -14,7 +14,7 @@ cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/imag
 draft: false
 
 ---
-I like Kubernetes and Containers so I set out to install Pivotal container service (PKS). 
+I like Kubernetes and Containers so I set out to install Pivotal container service (PKS).
 
 I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful (just go to the paragraph marked as **my field notes**.
 
@@ -30,16 +30,16 @@ Get some coffee and have a VMware environment available. I used my lab: a few ES
 
 # Installation Overview
 
-If you want to leverage the full power of PKS (ie all integrations) thsi is the high level install process:
+If you want to leverage the full power of PKS (ie all integrations) this is the high level install process:
 
-* Fix prerequisistes
+* Fix prerequisites
 * Install NSX-T for managing K8S network constructs and add-ons
 * Prepare NSX-T constructs for PKS
-* Install Ops Manager and BOSH
+* Install Ops Manager and **BOSH**
 * Install PKS
-* Deploy a Kubernetes Cluster
+* Deploy a **Kubernetes Cluster**
 * Install Harbor to manage container images
-* Install VMware vRealize Log Insight (vRLI) to get the logs from your environment
+* Install VMware vRealize Log Insight (vRLI) to get the **logs** from your environment
 * Install VMware vRealize Operations Manager (vROps) to monitor your infrastructure
 
 # Resources I have used
@@ -54,6 +54,8 @@ As this blog post may appear daunting you may start reading a smaller version pr
 
 ## My field notes
 
+Start small and make sure the environment is stable. Take your time to setup NSX-T. After that BOSH will help you a lot in uninstalling/reinstalling if needed ;)
+
 # Installing NSX-T
 
 The installation instructions for this this have been well-documented by my good friends at VMware so you can refer to the previous posts.
@@ -64,7 +66,33 @@ I especially recommend this if you are totally new to NSX-T:
 
 ## My field notes
 
-I have largely simplified the setup provide by  Mr Lam as my 
+I have largely simplified the setup provided by  Mr Lam but I was able to see all the NSX-T network integrations available.
+
+Here's a detailed overview of my Lab
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSLab.png)
+
+As You can see I've collapsed the admin and management network on a single segment (not managed by NSX-T) and I am using BGP pairing with my Lab router to auto propagate route information from NSX-T.
+
+In my setup I am using Vyatta as the main router. BGP setup was very easy on the NSX-T side:
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BGPNSX-T.png)
+
+But it was quite easy even on the Vyatta part:
+
+    configure
+    
+    set protocols bgp 5500 neighbor 10.64.167.166 remote-as 999
+    
+    set protocols bgp 5500 network 10.10.10.0/23
+    
+    set protocols bgp 5500 network 10.64.144.0/24
+    
+    set protocols bgp 5500 neighbor 10.64.167.166 password somePWD
+    
+    commit
+    
+    save
 
 # Troubleshooting BOSH
 
