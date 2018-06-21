@@ -41,9 +41,13 @@ Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be 
 
 [https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html](https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html "William Lam Blog")
 
+## My field notes
+
 # Installing NSX-T
 
-The installation instructions for this this have been well-documented by my good friends at VMware so i will post a few links here
+The installation instructions for this this have been well-documented by my good friends at VMware so I will post a few links here
+
+## My field notes
 
 # Troubleshooting BOSH
 
