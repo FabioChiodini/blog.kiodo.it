@@ -150,7 +150,7 @@ if you are new to BOSH I want to provide You with some basic command to troubles
 
 So here are some examples ;)
 
-### Getting BOSH status
+## Getting BOSH status
 
 You can use the command
 
