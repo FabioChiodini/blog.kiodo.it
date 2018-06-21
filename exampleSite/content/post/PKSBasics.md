@@ -191,7 +191,7 @@ To troubleshoot your deployments you may need to have a look at the related even
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHEvents.png)
 
-#### BOSH Cloud Check
+## BOSH Cloud Check
 
 You can also check the VMs that make up one deployment by using:
 
