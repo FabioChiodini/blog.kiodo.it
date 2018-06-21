@@ -7,7 +7,7 @@ tags:
 categories:
 - blogging
 description: More links!!
-cover: ''
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Worked-Fine-In-Dev-Ops-Problem-Now.jpg
 
 ---
 
