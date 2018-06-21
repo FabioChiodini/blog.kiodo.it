@@ -25,9 +25,27 @@ Get some coffee and have a VMware environment available. I used my lab: a few ES
 
 [https://docs.pivotal.io/runtimes/pks/1-0/#prerequisites](https://docs.pivotal.io/runtimes/pks/1-0/#prerequisites "PKS Prerequisites")
 
+# Installation Overview
+
+If you want to leverage the full power of PKS (ie all integrations) thsi is the high level install process:
+
+* Fix prerequisistes
+* Install NSX-T
+* Prepare NSX-T constructs for PKS
+* Install Ops Manager and BOSH
+* Install PKS
+
+# Resources I have used
+
+Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be automated, that will be for another blog post):
+
+[https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html](https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html "William Lam Blog")
+
 # Installing NSX-T
 
 The installation instructions for this this have been well-documented by my good friends at VMware so i will post a few links here
+
+# Troubleshooting BOSH
 
  I was also on the lookout for bugs in the module and most of the bugs seem to be related with it since it's a bit outdated now.
 I then activated the `virtualenv` and started entering the installation commands according to the instructions in the repository. Everything went on smoothly until the `python setup.py develop` command. I got an error as shown in the below picture.
