@@ -9,7 +9,7 @@ tags:
 categories:
 - Kubernetes
 - Containers
-description: Tips and Tricks I discovered using Pivotal Container Services (PKS)
+description: Tips and Tricks I discovered installing Pivotal Container Services (PKS)
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSCover.png
 draft: false
 
@@ -94,7 +94,23 @@ But it was quite easy even on the Vyatta part:
     
     save
 
+### Adding a static route to NSX Manager
+
+The NSX manager must be reachable by all the elements that you see in the diagram. 
+
+If you messed up (like I did) you can still edit the routes by using a command line this
+
+    set route prefix 0.0.0.0/0 gateway 10.64.167.254
+
+\[Just login as admin on the Manager VM and execute it\]
+
 # Troubleshooting BOSH
+
+if you are new to BOSH I want to provide You with some basic command to troubleshoot it.
+
+So here are some examples ;)
+
+## Getting the logs from a bosh deployment
 
 # Conclusion
 
