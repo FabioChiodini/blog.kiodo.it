@@ -2,6 +2,7 @@
 title: First steps with Pivotal Container Service (PKS)
 date: 2018-06-19 07:58:40 +0000
 tags:
+- Troubleshooting
 - BOSH
 - NSX-T
 - Pivotal
