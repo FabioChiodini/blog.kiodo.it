@@ -178,6 +178,12 @@ You can then get the deployment logs using:
 
 Than just untar the logs and go through  them ;)
 
+## Getting events for your deployments
+
+To troubleshoot your deployments you may need to have a look at the related events via:
+
+#### BOSH Cloud Check
+
 You can also check the VMs that make up one deployment by using:
 
     bosh cloud-check -d deploymentname
