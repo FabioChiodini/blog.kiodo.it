@@ -74,7 +74,11 @@ Here's a detailed overview of my Lab
 
 As You can see I've collapsed the admin and management network on a single segment (not managed by NSX-T) and I am using BGP pairing with my Lab router to auto propagate route information from NSX-T.
 
-In my setup I am using Vyatta as the main router. BGP setup was very easy on the NSX-T side:
+### BGP Setup
+
+In my setup I am using Vyatta as the main router.
+
+BGP setup was very easy on the NSX-T side:
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BGPNSX-T.png)
 
@@ -94,9 +98,39 @@ But it was quite easy even on the Vyatta part:
     
     save
 
+### BGP Troubleshooting
+
+Here are a few command to test if BGP is working:
+
+Connect as admin to the NSX-T edge
+
+Find the router using
+
+    get logical-routers
+
+Find the T0 service router vrf
+
+Change to the vrf
+
+    vrf 2
+
+use the commands
+
+    get bgp neighbour
+
+    get bgp
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/NSXBGPCLI.png)
+
+To check in on the Vyatta side just use:
+
+    show ip bgp
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/VyattaBGP.png)
+
 ### Adding a static route to NSX Manager
 
-The NSX manager must be reachable by all the elements that you see in the diagram. 
+The NSX manager must be reachable by all the elements that you see in the diagram.
 
 If you messed up (like I did) you can still edit the routes by using a command line this
 
