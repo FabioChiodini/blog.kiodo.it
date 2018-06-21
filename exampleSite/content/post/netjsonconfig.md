@@ -7,7 +7,7 @@ tags:
 categories:
 - Containers
 description: Tips and Tricks I discovered using Pivotal Container Services (PKS)
-cover: https://raw.githubusercontent.com/UtkarshVerma/blog/source/static/images/netjsonconfig/django2.png
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSCover.png
 draft: false
 
 ---
