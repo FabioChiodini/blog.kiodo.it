@@ -151,9 +151,13 @@ You can use the command
 
     bosh instances
 
-to get an overview of your deployed environment
+to get an overview of your deployed environment:
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHINSTANCES.png)
+
+You can even get more details (performamnces/load) by using:
+
+    bosh instances --ps --details --dns --vitals
 
 ## Getting IPs and VM names
 
