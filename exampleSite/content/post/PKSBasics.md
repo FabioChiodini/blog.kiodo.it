@@ -160,6 +160,12 @@ You can then get the deployment logs using:
 
 Than just untar the logs and go through  them ;)
 
+You can also check the VMs that make up one deployment by using:
+
+    bosh cloud-check -d deploymentname
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHCLOUDCHECK.png)
+
 ## PKS Deployment Troubleshooting
 
 If you get an error like this in your BOSH logs:
