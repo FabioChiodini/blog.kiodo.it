@@ -117,7 +117,7 @@ Change to the vrf
 use the commands
 
     get bgp neighbour
-
+    
     get bgp
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/NSXBGPCLI.png)
@@ -182,6 +182,10 @@ Than just untar the logs and go through  them ;)
 
 To troubleshoot your deployments you may need to have a look at the related events via:
 
+    bosh events --deployment deploymentname
+
+![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHEvents.png)
+
 #### BOSH Cloud Check
 
 You can also check the VMs that make up one deployment by using:
@@ -195,7 +199,7 @@ You can also check the VMs that make up one deployment by using:
 If you get an error like this in your BOSH logs:
 
     I0615 08:19:22.962041   12746 cloudprovider.go:59] --external-hostname was not specified. Trying to get it from the cloud provider.
-
+    
     error setting the external host value: "vsphere" cloud provider could not be initialized: could not init cloud provider "vsphere": 3:6: unquoted '\' must be followed by new line
 
 Then I have a fix for You ;)
