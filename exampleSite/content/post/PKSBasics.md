@@ -46,19 +46,21 @@ If you want to leverage the full power of PKS (ie all integrations) this is the 
 
 # Resources I have used
 
-Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be automated, that will be for another blog post):
+Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be automated, that will be for another blog post).
+
+Full setup as described by William Lam ( @lamw ):
 
 [https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html](https://www.virtuallyghetto.com/2018/03/getting-started-with-vmware-pivotal-container-service-pks-part-1-overview.html "William Lam Blog")
 
-As this blog post may appear daunting you may start reading a smaller version provided by the always amazing Cormac Hogan:
+As this blog post may appear daunting you may start reading a smaller version provided by the always amazing Cormac Hogan ( @CormacJHogan ):
 
 [https://cormachogan.com/2018/04/24/a-simple-pivotal-container-service-pks-deployment/](https://cormachogan.com/2018/04/24/a-simple-pivotal-container-service-pks-deployment/ "Faster setup")
 
 ## My field notes
 
-Start small and make sure the environment is stable. 
+Start small and make sure the environment is stable.
 
-Take your time to setup NSX-T. 
+Take your time to setup NSX-T.
 
 After that BOSH will help you a lot in uninstalling/reinstalling if needed ;)
 
@@ -82,7 +84,7 @@ As You can see I've collapsed the admin and management network on a single segme
 
 ### BGP Setup
 
-In my setup I am using Vyatta as the main router.
+In my setup I am using **Vyatta** as the main router.
 
 BGP setup was very easy on the NSX-T side:
 
@@ -108,7 +110,7 @@ But it was quite easy even on the Vyatta part:
 
 Here are a few command to test if BGP is working:
 
-Connect as admin to the NSX-T edge
+Connect as **admin** to the NSX-T edge
 
 Find the router using
 
@@ -128,7 +130,7 @@ use the commands
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/NSXBGPCLI.png)
 
-To check in on the Vyatta side just use:
+To check in on the **Vyatta** side just use:
 
     show ip bgp
 
@@ -138,7 +140,7 @@ To check in on the Vyatta side just use:
 
 The NSX manager must be reachable by all the elements that you see in the diagram.
 
-If you messed up (like I did :P ) you can still edit the routes by using a command line this
+If you messed up (like I did :P ) **you can still edit the routes** by using a command line this
 
     set route prefix 0.0.0.0/0 gateway 10.64.167.254
 
@@ -156,17 +158,17 @@ You can use the command
 
     bosh instances
 
-to get an overview of your deployed environment:
+to get an **overview of your deployed environment**:
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHINSTANCES.png)
 
-You can even get more details (performamnces/load) by using:
+You can even get **more details** (performamnces/load) by using:
 
     bosh instances --ps --details --dns --vitals
 
 ## Getting IPs and VM names
 
-if you need to figure out the name of the VMs in vCenter or the IPs to test connectivity here's your fiend:
+if you need to figure out the **name of the VMs in vCenter or the IPs** to test connectivity here's your fiend:
 
     bosh vms
 
@@ -180,17 +182,17 @@ First determine the deployment name with
 
     bosh deployments
 
-You can then get the deployment logs using:
+You can then **get the deployment logs** using:
 
     bosh logs -d deploymentname
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHLOGSCLI.png)
 
-Than just untar the logs and go through  them ;)
+Than **just untar the logs** and go through  them ;)
 
 ## Getting events for your deployments
 
-To troubleshoot your deployments you may need to have a look at the related events via:
+To troubleshoot your deployments you may need to have a look at the related **events** via:
 
     bosh events --deployment deploymentname
 
@@ -198,7 +200,7 @@ To troubleshoot your deployments you may need to have a look at the related even
 
 ## BOSH Cloud Check
 
-You can also check the VMs that make up one deployment by using:
+You can also c**heck the VMs that make up one deployment** by using:
 
     bosh cloud-check -d deploymentname
 
@@ -220,13 +222,13 @@ If you are using a domain account make sure you are using the user@domain notati
 
 ## BOSH Authentication errors
 
-If you mess up (like I did) you may find yourself unable to authenticate to BOSH remotely via CLI.
+If you mess up (like I did) you may find yourself **unable to authenticate to BOSH remotely via CLI.**
 
 No worries this flag may come to your rescue:
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHRecreate.png)
 
-Just flag it and apply changes.
+Just flag it and apply changes, this will rebuild the VMs (you won't lose data thanks to BOSH automation and persistent disks ;) ).
 
 I found out that it will fix the inconsistency.
 
@@ -238,4 +240,6 @@ I found out that it will fix the inconsistency.
 
 # Conclusion
 
-It was a great learning experience so hopefully the same applies to You. Stay tuned for more :)
+It was a **great learning experience and I discovered a lot of tools that can make our life easier** so hopefully the same applies to You. 
+
+Stay tuned for more :)
