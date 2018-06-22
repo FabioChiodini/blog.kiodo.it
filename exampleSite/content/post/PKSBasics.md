@@ -19,6 +19,8 @@ I like Kubernetes and Containers so I set out to install Pivotal container servi
 
 I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful (just go to the paragraph marked as **my field notes**.
 
+Let's start with the usual **disclaimer** :P This is meant to be as a **Lab/Learning setup** not a production one so if You want to deploy to production You'll have to take into account other non trivial factors depending on your environment (ie Design it properly!! :P )
+
 # What's PKS?
 
 Pivotal Container Service (PKS) is a purpose-built product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. It provides a production-grade Kubernetes distribution with deep VMwareNSX-T integration for advanced networking, a built-in private registry with enterprise security features and full life cycle management support of the clusters.
