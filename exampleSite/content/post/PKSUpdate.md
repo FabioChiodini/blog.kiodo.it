@@ -1,5 +1,5 @@
 ---
-title: First steps with Pivotal Container Service (PKS)
+title: Updating Pivotal Container Service (PKS)
 date: 2018-06-20 09:58:40 +0200
 tags:
 - Troubleshooting
