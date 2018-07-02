@@ -32,17 +32,17 @@ If you want more details just go [here](https://content.pivotal.io/blog/secure-m
 
 # MY point of View
 
-So why should I care about an API that helps me in managing Kubernetes?
+**So why should I care about an API that helps me in managing Kubernetes?**
 
-I have a long background in Operations but I see value here :)
+I have a long background in Operations but I see value in this "software thing" here :)
 
-If you have an API on top of your Kubernetes deployment you have the best interface to _operate it_ : you can move away from manual operations and put automation in place.
+**If you have an API on top of your Kubernetes deployment you have the best interface to _operate it _**: you can move away from manual operations and put (more) automation in place.
 
-If something happens and you want to change how your Kubernetes cluster is behaving you no longer have to stick to configuration files but you can just have **a machine talk to** PKS and change Kubernetes accordingly.
+If something happens and you want to change how your Kubernetes cluster is behaving you no longer have to stick to configuration files but you can **just have a machine talk to PKS and change Kubernetes configuration/behaviour accordingly.**
 
-This could be the infamous scale up/scale Down to accomodate peaks but it could also be some remediation action or even some security procedure.
+This could be the "infamous" scale up/scale Down to accommodate peaks but it could also be some remediation action even some security procedure or whatever will be needed in the future.
 
-**And all of these could be automated freeing you up for manual tasks (and errors as well) :)**
+**And all of these could be automated freeing you up from manual tasks (and errors as well) :)**
 
 # What do You need?
 
