@@ -2,6 +2,7 @@
 title: Updating Pivotal Container Service (PKS)
 date: 2018-06-20 07:58:40 +0000
 tags:
+- Update
 - BOSH
 - Pivotal
 - PKS
