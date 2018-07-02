@@ -24,11 +24,25 @@ Let's start with the usual **disclaimer** :P This is meant to be as a **Lab/Lear
 
 Pivotal Container Service (PKS) is a purpose-built product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. It provides a production-grade Kubernetes distribution with deep VMware NSX-T integration for advanced networking, a built-in private registry with enterprise security features and full life cycle management support of the clusters.
 
-It is not just "yet another Kubernetes distribution" but it provides more a "Kubernetes as service experience. 
+It is not just "yet another Kubernetes distribution" but it provides more a "Kubernetes as service experience.
 
 What do I mean by that? Using an API (PKS API) you can just ask for a Kubernetes Cluster and PKS will provision one for You. Not only that but it will let you manage/upgrade it in Day 1 and 2 and also integrate it with the right networking/monitoring/logging/security add-ons that you need in a production environment.
 
 If you want more details just go [here](https://content.pivotal.io/blog/secure-multitenant-kubernetes-in-minutes-pivotal-container-service-goes-ga "HERE") or [here ](https://www.youtube.com/watch?v=bQKra0CB5zE)if you like videos better :)
+
+# MY point of View
+
+So why should I care about an API that helps me in managing Kubernetes?
+
+I have a long background in Operations but I see value here :)
+
+If you have an API on top of your Kubernetes deployment you have the best interface to _operate it_ : you can move away from manual operations and put automation in place.
+
+If something happens and you want to change how your Kubernetes cluster is behaving you no longer have to stick to configuration files but you can just have **a machine talk to** PKS and change Kubernetes accordingly.
+
+This could be the infamous scale up/scale Down to accomodate peaks but it could also be some remediation action or even some security procedure.
+
+**And all of these could be automated freeing you up for manual tasks (and errors as well) :)**
 
 # What do You need?
 
@@ -247,6 +261,6 @@ I found out that it will fix the inconsistency.
 
 # Conclusion
 
-It was a **great learning experience and I discovered a lot of tools that can make our life easier** so hopefully the same applies to You. 
+It was a **great learning experience and I discovered a lot of tools that can make our life easier** so hopefully the same applies to You.
 
 Stay tuned for more :)
