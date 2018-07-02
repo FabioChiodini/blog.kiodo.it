@@ -83,6 +83,12 @@ It is also a good idea to check the version deployed to recheck them after the u
 
 ![](/uploads/PKSPreUpdate-3.png)
 
+## NSXT-T Authentication
+
+With this version user/password authentication for NSX-T seems to be gone :O
+
+Time for some command line!!
+
 ## Update steps
 
 PKS 1.1 requires also a stemcell upgrade (requires 3586.24) so after you uploaded the PKS package you'll also have to update the stemcell:
@@ -125,12 +131,24 @@ If you are adding an ip range for nodes and you have Harbor installed please not
 
 Harbor uses the following IP blocks for its internal bridges:
 
-*     172.17.0.1/16
-*     172.18.0.1/16
-*     172.19.0.1/16
-*     172.20.0.1/16
-*     172.21.0.1/16
-*     172.22.0.1/16
+* 
+
+      172.17.0.1/16
+* 
+
+      172.18.0.1/16
+* 
+
+      172.19.0.1/16
+* 
+
+      172.20.0.1/16
+* 
+
+      172.21.0.1/16
+* 
+
+      172.22.0.1/16
 
 I used 172.14.0.1/16 in my environment.
 
