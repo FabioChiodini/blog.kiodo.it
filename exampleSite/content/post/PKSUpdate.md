@@ -19,6 +19,8 @@ In this blog post I'll provide you with some notes on the upgrade process and wh
 
 [PKS 1.10 just shipped ](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works)so time to upgrade the Lab (read the next paragraph for the bullet-point-version of the new features) :)
 
+**MY USUAL DISCLAIMER:** These steps are not meant for a production environment, always refer to official support and documentation for this type of setups.
+
 # So why am I upgrading?
 
 Upgrades are cool but they can be painful as we all know ;)
