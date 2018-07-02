@@ -13,7 +13,7 @@ description: Tips and Tricks I discovered updateing Pivotal Container Services (
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Update.jpg
 
 ---
-Time to update Pivotal Container Service (PKS)!! 
+Time to update Pivotal Container Service (PKS)!!
 
 In this blog post I'll provide you with some notes on the upgrade process and why I performed the upgrade.
 
@@ -23,7 +23,7 @@ In this blog post I'll provide you with some notes on the upgrade process and wh
 
 Upgrades are cool but they can be painful as we all know ;)
 
-My main goal for upgrading is **understanding if PKS can make these upgrades easier.** 
+My main goal for upgrading is **understanding if PKS can make these upgrades easier.**
 
 But obviously I want to be able to enjoy the latest and greatest being shipped by version 1.10 so:
 
@@ -73,6 +73,10 @@ Starting by checking that everything is up and running:
 A good old **_bosh vms_** command could be a good start:
 
 ![](/uploads/PKSPreUpdate-2.png)
+
+It is also a good idea to check the version deployed to recheck them after the update. Use **_bosh deployments_** to get the versions installed:
+
+![](/uploads/PKSPreUpdate-3.png)
 
 # Conclusion
 
