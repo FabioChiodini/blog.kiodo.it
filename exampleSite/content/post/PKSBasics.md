@@ -12,7 +12,6 @@ categories:
 - Containers
 description: Tips and Tricks I discovered installing Pivotal Container Services (PKS)
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSCover.png
-draft: false
 
 ---
 I like Kubernetes and Containers so I set out to install Pivotal container service (PKS).
