@@ -68,6 +68,8 @@ The official guides from Pivotal are always helpful:
 
 ## My field notes
 
+## Pre Update
+
 Starting by checking that everything is up and running:
 
 A good old **_bosh vms_** command could be a good start:
@@ -77,6 +79,36 @@ A good old **_bosh vms_** command could be a good start:
 It is also a good idea to check the version deployed to recheck them after the update. Use **_bosh deployments_** to get the versions installed:
 
 ![](/uploads/PKSPreUpdate-3.png)
+
+## Update steps
+
+PKS 1.1 requires also a stemcell upgrade (requires 3586.24) so after you uploaded the PKS package you'll also have to update the stemcell:
+
+![](/uploads/PKSUpdate-2.png)
+
+Download it from [here](https://network.pivotal.io/products/stemcells#/releases/121367)
+
+And then configure PKS to use it:
+
+![](/uploads/PKSUpdate-3.png)
+
+Now you are ready to configure a couple of things in PKS before starting the update:
+
+When it comes to understanding the new ip block I suggest you to refer to this article:
+
+[https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html)
+
+For the sake of simplicity I've kept the same block nodes for now in My Lab:
+
+![](/uploads/PKSUpdate-5.png)
+
+Remember to populate a DNS address for the pods.
+
+But.. if you read the release notes (I didn't!! :P) you would have known that you also have to **upgrade Harbor as you need version 1.5 for PKS 1.1, if you hadn't you'll get this error**
+
+> _Cannot generate manifest for product VMware Harbor Registry: Error in (( .properties.auth_mode.selected_option.parsed_manifest(uaa) )): Error in https://(( ..pivotal-container-service.properties.uaa_url.value )):8443: unknown property "uaa_url" (Product "VMware Harbor Registry" / Job: nil) (Product "VMware Harbor Registry" / Job: nil)_
+
+![](/uploads/PKSUpdate-8.png)
 
 # Conclusion
 
