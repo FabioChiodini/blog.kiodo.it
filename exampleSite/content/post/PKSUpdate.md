@@ -15,11 +15,7 @@ cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/imag
 draft: false
 
 ---
-I like Kubernetes and Containers so I set out to install Pivotal container service (PKS).
-
-I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful (just go to the paragraph marked as **my field notes**.
-
-Let's start with the usual **disclaimer** :P This is meant to be as a **Lab/Learning setup** not a production one so if You want to deploy to production You'll have to take into account other non trivial factors depending on your environment (ie Design it properly!! :P )
+Time to update PKS!!
 
 # What's PKS?
 
