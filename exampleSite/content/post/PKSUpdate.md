@@ -13,19 +13,28 @@ description: Tips and Tricks I discovered updateing Pivotal Container Services (
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Update.jpg
 
 ---
-Time to update Pivotal Container Service (PKS)!!
+Time to update Pivotal Container Service (PKS)!! 
 
-[PKS 1.1 just shipped](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works) so time to upgrade the Lab
+In this blog post I'll provide you with some notes on the upgrade process and why I performed the upgrade.
 
-# What's PKS?
+[PKS 1.10 just shipped ](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works)so time to upgrade the Lab (read the next paragraph for the bullet-point-version of the new features) :)
 
-Pivotal Container Service (PKS) is a purpose-built product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. It provides a production-grade Kubernetes distribution with deep VMware NSX-T integration for advanced networking, a built-in private registry with enterprise security features and full life cycle management support of the clusters.
+# So why am I upgrading?
 
-It is not just "yet another Kubernetes distribution" but it provides more a "Kubernetes as service experience.
+Upgrades are cool but they can be painful as we all know ;)
 
-What do I mean by that? Using an API (PKS API) you can just ask for a Kubernetes Cluster and PKS will provision one for You. Not only that but it will let you manage/upgrade it in Day 1 and 2 and also integrate it with the right networking/monitoring/logging/security add-ons that you need in a production environment.
+My main goal for upgrading is **understanding if PKS can make these upgrades easier.** 
 
-If you want more details just go [here](https://content.pivotal.io/blog/secure-multitenant-kubernetes-in-minutes-pivotal-container-service-goes-ga "HERE") or [here ](https://www.youtube.com/watch?v=bQKra0CB5zE)if you like videos better :)
+But obviously I want to be able to enjoy the latest and greatest being shipped by version 1.10 so:
+
+* Updated **Kubernetes** version **1.10.3**
+* **Another layer of High Availability for your Kubernetes cluster**: PKS now supports availability zones (ie span your workers and masters (beta) installations across different clusters)
+* **More multitenancy**: now you can automatically provision Kubernetes cluster along with a dedicated network (via NSX-T integration)
+* Automatic cleanup of unused NSX-T constructs
+* **Easier integration with VMware** vRealize Network Insight and VMware Wavefront
+* Expanded [**LDAP support**](https://docs.pivotal.io/runtimes/pks/1-1/manage-users.html#cluster-access)
+
+The full list of improvements is available [here](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html)
 
 # What do You need?
 
