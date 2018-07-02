@@ -54,10 +54,11 @@ If you want some notes on how to set PKS up here they are:
 
 Here are the high level steps:
 
-* Download new version of PKS from [Pivotal Network](https://network.pivotal.io/ "Pivotal Network")
-* Review release notes!! :P
-* Upgrade using Pivotal Ops Manager
-* Upgrade your Kubernetes Clusters
+* **Download** new version of PKS from [Pivotal Network](https://network.pivotal.io/ "Pivotal Network")
+* Review [the release notes](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html)!! :P
+* **Upgrade PKS** using Pivotal Ops Manager
+* **Upgrade your Kubernetes Clusters**
+* \[upgrade Harbor\]
 
 # Resources I have used
 
