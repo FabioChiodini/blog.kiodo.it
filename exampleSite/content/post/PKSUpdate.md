@@ -89,6 +89,8 @@ With this version user/password authentication for NSX-T seems to be gone :O
 
 Time for some command line!!
 
+Refer to step 6 [in this guide](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html) for the full instructions.
+
 ## Update steps
 
 PKS 1.1 requires also a stemcell upgrade (requires 3586.24) so after you uploaded the PKS package you'll also have to update the stemcell:
