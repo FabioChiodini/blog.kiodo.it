@@ -111,9 +111,11 @@ But.. if you read the release notes (I didn't!! :P) you would have known that yo
 
 ![](/uploads/PKSUpdate-8.png)
 
-So download the 1.5 release of harbor and update it via Ops Manager:
+So download the 1.5 release of Harbor and update it via Ops Manager:
 
 ![](/uploads/PKSUpdate-9.png)
+
+Click on "_Apply Changes"_ and let BOSH do its magic :)
 
 # Conclusion
 
