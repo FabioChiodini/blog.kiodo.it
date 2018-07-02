@@ -15,7 +15,7 @@ cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/imag
 ---
 Time to update Pivotal Container Service (PKS)!!
 
-In this blog post I'll provide you with some notes on the upgrade process and why I performed the upgrade.
+In this blog post I'll provide you with **some notes on the upgrade process** and **why I performed the upgrade**.
 
 [PKS 1.10 just shipped ](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works)so time to upgrade the Lab (read the next paragraph for the bullet-point-version of the new features) :)
 
@@ -118,6 +118,21 @@ So download the 1.5 release of Harbor and update it via Ops Manager:
 ![](/uploads/PKSUpdate-9.png)
 
 Click on "_Apply Changes"_ and let BOSH do its magic :)
+
+### Adding an IP range for nodes
+
+If you are adding an ip range for nodes and you have Harbor installed please note [this](https://docs.vmware.com/en/VMware-Pivotal-Container-Service/1.1/vmware-pks-11/GUID-PKS11-installing-nsx-t.html):
+
+Harbor uses the following IP blocks for its internal bridges:
+
+*     172.17.0.1/16
+*     172.18.0.1/16
+*     172.19.0.1/16
+*     172.20.0.1/16
+*     172.21.0.1/16
+*     172.22.0.1/16
+
+I used 172.14.0.1/16 in my environment.
 
 # Conclusion
 
