@@ -152,35 +152,28 @@ Click on "_Apply Changes"_ and let BOSH do its magic :)
 
 ### Adding an IP range for nodes
 
-If you are adding an ip range for nodes and you have Harbor installed please note [this](https://docs.vmware.com/en/VMware-Pivotal-Container-Service/1.1/vmware-pks-11/GUID-PKS11-installing-nsx-t.html):
+If you are adding an ip range for nodes and you have Harbor installed please note [this](https://docs.vmware.com/en/VMware-Pivotal-Container-Service/1.1/vmware-pks-11/GUID-PKS11-installing-nsx-t.html) ie:
 
 Harbor uses the following IP blocks for its internal bridges:
 
-* 
+* 172.17.0.1/16
 
-      172.17.0.1/16
 
-* 
+* 172.18.0.1/16
 
-      172.18.0.1/16
 
-* 
+* 172.19.0.1/16
 
-      172.19.0.1/16
 
-* 
+* 172.20.0.1/16
 
-      172.20.0.1/16
 
-* 
+* 172.21.0.1/16
 
-      172.21.0.1/16
 
-* 
+* 172.22.0.1/16
 
-      172.22.0.1/16
-
-I used 172.14.0.1/16 in my environment.
+I used 172.14.0.0/24 in my environment.
 
 # Conclusion
 
