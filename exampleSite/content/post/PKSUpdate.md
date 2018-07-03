@@ -95,6 +95,25 @@ Or if you like quick lab notes go [here](https://www.definit.co.uk/2018/06/upgra
 
 In essence you have to set up a Super User Principal Identity that will authenticate to NSX-T using certificates.
 
+## NSX-T restore
+
+You may find this process useful (as I did) :P
+
+If you make some big mistakes with the scripts you may find yourself with an "unclean" configuration of NSX-T.
+
+But if you have [scheduled some backups](http://pubs.vmware.com/nsxt-11/index.jsp?topic=%2Fcom.vmware.nsxt.admin.doc%2FGUID-E6181BF1-2CB7-4870-B508-BFAF5B47D702.html) you can still be fine ;)
+
+The restore process is quite simple:
+
+* Shut down old NSX Manager
+* Deploy from ova a new one with the same name, ip, login and other settings
+* Log in to the new one
+* Restore the backup from your backup repository
+
+![](/uploads/NSX-T restore.png)
+
+![](/uploads/NSX-T restore-2.png)
+
 ## Update steps
 
 PKS 1.1 requires also a stemcell upgrade (requires 3586.24) so after you uploaded the PKS package you'll also have to update the stemcell:
@@ -140,18 +159,23 @@ Harbor uses the following IP blocks for its internal bridges:
 * 
 
       172.17.0.1/16
+
 * 
 
       172.18.0.1/16
+
 * 
 
       172.19.0.1/16
+
 * 
 
       172.20.0.1/16
+
 * 
 
       172.21.0.1/16
+
 * 
 
       172.22.0.1/16
