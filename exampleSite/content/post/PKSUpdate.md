@@ -62,7 +62,6 @@ Here are the high level steps:
 * Setup **new authentication method for NSX-T**
 * **Upgrade PKS** using Pivotal Ops Manager
 * **Upgrade your Kubernetes Clusters**
-* \[upgrade Harbor\]
 
 # Resources I have used
 
