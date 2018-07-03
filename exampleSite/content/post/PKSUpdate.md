@@ -91,6 +91,10 @@ Time for some command line!!
 
 Refer to step 6 [in this guide](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html) for the full instructions.
 
+Or if you like quick lab notes go [here](https://www.definit.co.uk/2018/06/upgrading-pks-with-nsx-t-from-1-0-x-to-1-1/)
+
+In essence you have to set up a Super User Principal Identity that will authenticate to NSX-T using certificates.
+
 ## Update steps
 
 PKS 1.1 requires also a stemcell upgrade (requires 3586.24) so after you uploaded the PKS package you'll also have to update the stemcell:
