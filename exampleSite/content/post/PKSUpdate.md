@@ -59,6 +59,7 @@ Here are the high level steps:
 * **Download** new version of PKS from [Pivotal Network](https://network.pivotal.io/ "Pivotal Network")
 * Review [the release notes](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html)!! :P
 * **Upgrade Harbor** (as you've read the release notes)
+* Setup **new authentication method for NSX-T**
 * **Upgrade PKS** using Pivotal Ops Manager
 * **Upgrade your Kubernetes Clusters**
 * \[upgrade Harbor\]
