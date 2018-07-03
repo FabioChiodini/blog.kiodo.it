@@ -17,7 +17,7 @@ Time to update Pivotal Container Service (PKS)!!
 
 In this blog post I'll provide you with **some notes on the upgrade process** and **why I performed the upgrade**.
 
-[PKS 1.10 just shipped ](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works)so time to upgrade the Lab (read the next paragraph for the bullet-point-version of the new features) :)
+[PKS 1.1.0 just shipped ](https://content.pivotal.io/blog/pivotal-container-service-1-1-now-ga-helps-you-run-kubernetes-without-complexity-why-pks-just-works)so time to upgrade the Lab (read the next paragraph for the bullet-point-version of the new features) :)
 
 **MY USUAL DISCLAIMER:** These steps are not meant for a production environment, always refer to official support and documentation for this type of setups.
 
@@ -93,7 +93,7 @@ Refer to step 6 [in this guide](https://docs.pivotal.io/runtimes/pks/1-1/install
 
 Or if you like quick lab notes go [here](https://www.definit.co.uk/2018/06/upgrading-pks-with-nsx-t-from-1-0-x-to-1-1/)
 
-In essence you have to set up a Super User Principal Identity that will authenticate to NSX-T using certificates.
+In essence you have to set up a Super User Principal Identity that will authenticate to NSX-T using a certificate.
 
 ## NSX-T restore
 
@@ -105,7 +105,7 @@ But if you have [scheduled some backups](http://pubs.vmware.com/nsxt-11/index.js
 
 The restore process is quite simple:
 
-* Shut down old NSX Manager
+* Shut down old NSX-T Manager
 * Deploy from ova a new one with the same name, ip, login and other settings
 * Log in to the new one
 * Restore the backup from your backup repository
