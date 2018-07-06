@@ -1,7 +1,6 @@
 ---
 title: 'New to Cloud Native and DevOps? '
 date: 2018-06-18 12:29:43 +0000
-draft: false
 tags: []
 categories:
 - Kubernetes
@@ -20,7 +19,7 @@ In this Github repository you can find all the basics:
 [https://github.com/dotnext/training](https://github.com/dotnext/training "DevOps GeekWeek")
 
 * Basic Terminology/Taxonomy
-* Agile DevOps and all the new terms ;)
+* Agile, Cloud Native, DevOps and all the new terms ;)
 * Tools
 * Containers 101 with labs
 * Kubernetes 101 with labs
