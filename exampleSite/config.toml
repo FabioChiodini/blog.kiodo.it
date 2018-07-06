@@ -1,6 +1,6 @@
-baseURL = "https://gifted-raman-00870e.netlify.com/"
+baseURL = "https://blog.kiodo.io/"
 defaultContentLanguage = "en"
-disqusShortname = "https-gifted-raman-00870e-netlify-com"
+disqusShortname = "blog-kiodo-io"
 googleanalytics = "UA-121900342-1"
 enableEmoji = true
 enableRobotsTXT = true
