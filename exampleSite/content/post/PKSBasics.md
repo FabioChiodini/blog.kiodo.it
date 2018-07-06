@@ -259,6 +259,10 @@ I found out that it will fix the inconsistency.
 
 \[Just imagine doing this without a tool like BOSH or on a fully manual installation of Kubernetes :P \]
 
+## More troubleshooting Links
+
+If you experience other errors here's a [good link](https://cormachogan.com/2018/04/26/pks-networking-setup-tips-and-tricks/) (again from Cormac) where you can find some resolutions to other error codes.
+
 # Conclusion
 
 It was a **great learning experience and I discovered a lot of tools that can make our life easier** so hopefully the same applies to You.
