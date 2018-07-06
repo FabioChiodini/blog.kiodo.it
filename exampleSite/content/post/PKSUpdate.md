@@ -9,7 +9,7 @@ tags:
 categories:
 - Kubernetes
 - Containers
-description: Tips and Tricks I discovered updateing Pivotal Container Services (PKS)
+description: Tips and Tricks I discovered updating Pivotal Container Services (PKS)
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Update.jpg
 
 ---
