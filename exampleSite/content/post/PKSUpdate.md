@@ -144,6 +144,9 @@ And then configure PKS to use it:
 
 Now you are ready to configure a couple of things in PKS before starting the update:
 
+* new ip blocks
+* new settings in OpsManager
+
 When it comes to understanding the new ip block required I suggest you to refer to this article:
 
 [https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html)
