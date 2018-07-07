@@ -170,6 +170,24 @@ I used 172.14.0.0/24 in my environment.
 
 ![](/uploads/New node ip block.png)
 
+## New settings in OpsManager for PKS
+
+To perform the upgrade you'lll have to fill some fields in the PKS tile from OpsManager:
+
+The node block:
+
+![](/uploads/PKSNodeblock.png)
+
+The NO NAT option:
+
+![](/uploads/PKSNoNAT.png)
+
+The Usage data policy:
+
+![](/uploads/PKSUsagedata.png)
+
+Then kick off the BOSH install.
+
 # Conclusion
 
 Stay tuned for more :)
