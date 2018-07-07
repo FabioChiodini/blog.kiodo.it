@@ -83,6 +83,12 @@ It is also a good idea to check the version deployed to recheck them after the u
 
 ![](/uploads/PKSPreUpdate-3.png)
 
+## Update Harbor
+
+Updating Harbor should be easy: just import the tile in OpsManager and let BOSH do its magic.
+
+![](/uploads/Harbor1.5.1.png)
+
 ## NSXT-T Authentication
 
 With this version user/password authentication for NSX-T seems to be gone :O
@@ -128,7 +134,7 @@ And then configure PKS to use it:
 
 Now you are ready to configure a couple of things in PKS before starting the update:
 
-When it comes to understanding the new ip block I suggest you to refer to this article:
+When it comes to understanding the new ip block required I suggest you to refer to this article:
 
 [https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html)
 
