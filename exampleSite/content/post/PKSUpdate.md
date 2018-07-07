@@ -111,6 +111,22 @@ Or if you like quick lab notes go [here](https://www.definit.co.uk/2018/06/upgra
 
 In essence you have to set up a Super User Principal Identity that will authenticate to NSX-T using a certificate.
 
+![](/uploads/PKSsuperuser.png)
+
+You can also check if your certificate is valid from a command line:
+
+    curl -k -X GET \
+
+        "https://${NSX_MANAGER}/api/v1/trust-management/principal-identities" \
+
+        --cert $(pwd)/"$NSX_SUPERUSER_CERT_FILE" \
+
+        --key $(pwd)/"$NSX_SUPERUSER_KEY_FILE"
+
+    
+
+![](/uploads/Certifcate superuser get.png)
+
 ## NSX-T restore
 
 You may find this process useful (as I did) :P
