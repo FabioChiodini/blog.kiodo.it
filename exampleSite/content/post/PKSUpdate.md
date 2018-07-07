@@ -208,6 +208,16 @@ The Usage data policy:
 
 Then kick off the BOSH install.
 
+## Don't forget to update the CLI components
+
+    sudo chmod +x pks-linux-amd64-1.1.0-build.301
+
+    sudo mv pks-linux-amd64-1.1.0-build.301 /usr/local/bin/pks
+
+    sudo chmod +x kubectl-linux-amd64-v1.10.3
+
+    sudo mv kubectl-linux-amd64-v1.10.3 /usr/local/bin/kubectl
+
 # Conclusion
 
 Stay tuned for more :)
