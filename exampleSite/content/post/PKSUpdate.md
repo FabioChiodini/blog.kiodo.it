@@ -168,6 +168,8 @@ Harbor uses the following IP blocks for its internal bridges:
 
 I used 172.14.0.0/24 in my environment.
 
+![](/uploads/New node ip block.png)
+
 # Conclusion
 
 Stay tuned for more :)
