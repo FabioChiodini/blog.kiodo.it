@@ -131,7 +131,7 @@ You can also check if your certificate is valid from a command line:
 
 You may find this process useful (as I did) :P
 
-If you make some big mistakes with the scripts you may find yourself with an "unclean" configuration of NSX-T.
+If you make some big mistakes with the scripts that create certificates for the superuser you may find yourself with an "unclean" configuration of NSX-T.
 
 But if you have [scheduled some backups](http://pubs.vmware.com/nsxt-11/index.jsp?topic=%2Fcom.vmware.nsxt.admin.doc%2FGUID-E6181BF1-2CB7-4870-B508-BFAF5B47D702.html) you can still be fine ;)
 
