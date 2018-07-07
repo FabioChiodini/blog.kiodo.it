@@ -210,6 +210,8 @@ Then kick off the BOSH install.
 
 ## Don't forget to update the CLI components
 
+Download from [Pivotal Network](https://network.pivotal.io/) and then upload to your PKS client machine:
+
     sudo chmod +x pks-linux-amd64-1.1.0-build.301
 
     sudo mv pks-linux-amd64-1.1.0-build.301 /usr/local/bin/pks
