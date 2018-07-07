@@ -172,7 +172,11 @@ I used 172.14.0.0/24 in my environment.
 
 ## New settings in OpsManager for PKS
 
-To perform the upgrade you'lll have to fill some fields in the PKS tile from OpsManager:
+To perform the upgrade you'lll have to fill some fields in the PKS tile from OpsManager.
+
+The new certificate based authentication:
+
+![](/uploads/PKSAuthforNSXT.png)
 
 The node block:
 
