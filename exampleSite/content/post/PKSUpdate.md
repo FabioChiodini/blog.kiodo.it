@@ -89,6 +89,14 @@ Updating Harbor should be easy: just import the tile in OpsManager and let BOSH 
 
 ![](/uploads/Harbor1.5.1.png)
 
+But.. if you read the release notes (I didn't!! :P) you would have known that you also have to upgrade Harbor as you need version 1.5 for PKS 1.1, if you hadn't you'll get this error
+
+    Cannot generate manifest for product VMware Harbor Registry: Error in (( .properties.auth_mode.selected_option.parsed_manifest(uaa) )): Error in https://(( ..pivotal-container-service.properties.uaa_url.value )):8443: unknown property "uaa_url" (Product "VMware Harbor Registry" / Job: nil) (Product "VMware Harbor Registry" / Job: nil)
+
+So download the 1.5 release of Harbor and update it via Ops Manager.
+
+Click on "Apply Changes" and let BOSH do its magic :)
+
 ## NSXT-T Authentication
 
 With this version user/password authentication for NSX-T seems to be gone :O
@@ -138,23 +146,7 @@ When it comes to understanding the new ip block required I suggest you to refer 
 
 [https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html](https://docs.pivotal.io/runtimes/pks/1-1/installing-nsx-t.html)
 
-For the sake of simplicity I've kept the same block nodes for now in My Lab:
-
-![](/uploads/PKSUpdate-5.png)
-
 Remember to populate a DNS address for the pods.
-
-But.. if you read the release notes (I didn't!! :P) you would have known that you also have to **upgrade Harbor as you need version 1.5 for PKS 1.1, if you hadn't you'll get this error**
-
-> _Cannot generate manifest for product VMware Harbor Registry: Error in (( .properties.auth_mode.selected_option.parsed_manifest(uaa) )): Error in https://(( ..pivotal-container-service.properties.uaa_url.value )):8443: unknown property "uaa_url" (Product "VMware Harbor Registry" / Job: nil) (Product "VMware Harbor Registry" / Job: nil)_
-
-![](/uploads/PKSUpdate-8.png)
-
-So download the 1.5 release of Harbor and update it via Ops Manager:
-
-![](/uploads/PKSUpdate-9.png)
-
-Click on "_Apply Changes"_ and let BOSH do its magic :)
 
 ### Adding an IP range for nodes
 
