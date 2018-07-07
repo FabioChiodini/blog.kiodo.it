@@ -93,6 +93,8 @@ But.. if you read the release notes (I didn't!! :P) you would have known that yo
 
     Cannot generate manifest for product VMware Harbor Registry: Error in (( .properties.auth_mode.selected_option.parsed_manifest(uaa) )): Error in https://(( ..pivotal-container-service.properties.uaa_url.value )):8443: unknown property "uaa_url" (Product "VMware Harbor Registry" / Job: nil) (Product "VMware Harbor Registry" / Job: nil)
 
+![](/uploads/PKSUpdate-8-1.png)
+
 So download the 1.5 release of Harbor and update it via Ops Manager.
 
 Click on "Apply Changes" and let BOSH do its magic :)
