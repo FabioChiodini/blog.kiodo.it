@@ -116,14 +116,12 @@ In essence you have to set up a Super User Principal Identity that will authenti
 You can also check if your certificate is valid from a command line:
 
     curl -k -X GET \
-
-        "https://${NSX_MANAGER}/api/v1/trust-management/principal-identities" \
-
-        --cert $(pwd)/"$NSX_SUPERUSER_CERT_FILE" \
-
-        --key $(pwd)/"$NSX_SUPERUSER_KEY_FILE"
-
     
+        "https://${NSX_MANAGER}/api/v1/trust-management/principal-identities" \
+    
+        --cert $(pwd)/"$NSX_SUPERUSER_CERT_FILE" \
+    
+        --key $(pwd)/"$NSX_SUPERUSER_KEY_FILE"
 
 ![](/uploads/Certifcate superuser get.png)
 
@@ -213,12 +211,28 @@ Then kick off the BOSH install.
 Download from [Pivotal Network](https://network.pivotal.io/), upload to your PKS client machine and then:
 
     sudo chmod +x pks-linux-amd64-1.1.0-build.301
-
+    
     sudo mv pks-linux-amd64-1.1.0-build.301 /usr/local/bin/pks
-
+    
     sudo chmod +x kubectl-linux-amd64-v1.10.3
-
+    
     sudo mv kubectl-linux-amd64-v1.10.3 /usr/local/bin/kubectl
+
+## Some troubleshooting notes
+
+### Unable to delete cluster
+
+If (for any strange reason :P) you find yourself in a situation where you are not able to delete a pks cluster by using the "_pks delete cluster clustername_" command:
+
+![](/uploads/PKSClusterStuck.png)
+
+You can force the deletion using a command like 
+
+    bosh -d nameofdeployment delete-deployment
+
+![](/uploads/BOSHdeletedeployment.png)
+
+This should do the trick.
 
 # Conclusion
 
