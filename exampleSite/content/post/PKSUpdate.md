@@ -238,6 +238,12 @@ This should do the trick, check in vCenter:
 
 **However** you may still have the cluster listed in the PKS database so you could have to [clean it up manually](https://orchestration.io/2018/04/20/delete-an-orphaned-pks-cluster/)
 
+You'll have to SSH to PKS instance:
+
+![](/uploads/SSH to PKS.png)
+
+And then clean the database (MariaDB)
+
 # Conclusion
 
 Lots of new learning stuff but also new goodies to experiment with thanks to this new version. 
