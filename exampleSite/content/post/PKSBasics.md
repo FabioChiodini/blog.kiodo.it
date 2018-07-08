@@ -1,6 +1,6 @@
 ---
 title: First steps with Pivotal Container Service (PKS)
-date: 2018-06-20 09:58:40 +0200
+date: 2018-06-20 07:58:40 +0000
 tags:
 - Troubleshooting
 - BOSH
@@ -226,6 +226,14 @@ You can also c**heck the VMs that make up one deployment** by using:
     bosh cloud-check -d deploymentname
 
 ![](https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BOSHCLOUDCHECK.png)
+
+## Getting information on a specific BOSH task
+
+To check information about a specific BOSH task use the syntax
+
+    bosh task tasknumber
+
+![](/uploads/BOSHtask.png)
 
 ## PKS Deployment Troubleshooting
 
