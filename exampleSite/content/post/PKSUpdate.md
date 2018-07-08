@@ -234,6 +234,12 @@ You can force the deletion using a command like
 
 This should do the trick.
 
+**However** you may still have the cluster listed in the PKS database so you could have to [clean it up manually](https://orchestration.io/2018/04/20/delete-an-orphaned-pks-cluster/)
+
 # Conclusion
+
+Lots of new learning stuff but also new goodies to experiment with thanks to this new version. 
+
+IMHO **the certificate authentication process with NSX-T could be simplified**, something that we will hopefully see in the next versions.
 
 Stay tuned for more :)
