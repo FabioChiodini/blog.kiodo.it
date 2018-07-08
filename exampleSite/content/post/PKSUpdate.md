@@ -232,7 +232,9 @@ You can force the deletion using a command like
 
 ![](/uploads/BOSHdeletedeployment.png)
 
-This should do the trick.
+This should do the trick, check in vCenter:
+
+![](/uploads/DeleteVMs.png)
 
 **However** you may still have the cluster listed in the PKS database so you could have to [clean it up manually](https://orchestration.io/2018/04/20/delete-an-orphaned-pks-cluster/)
 
