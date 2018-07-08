@@ -242,7 +242,21 @@ You'll have to SSH to PKS instance:
 
 ![](/uploads/SSH to PKS.png)
 
-And then clean the database (MariaDB)
+And then clean the database (MariaDB).
+
+A few notes on this procedure.
+
+I was not able to connect to the database using the procedure exposed so I created a config file:
+
+![](/uploads/Mariadbconnect.png)
+
+And it worked!!
+
+![](/uploads/MaruiaDBdelete.png)
+
+On the command used to delete the records: I used this:
+
+    delete from cluster where name = 'k8s-cluster-01'
 
 # Conclusion
 
