@@ -1,7 +1,7 @@
 ---
 title: 'More automation for PKS? '
 date: 2018-07-09 2:29:43 +0000
-tags: []
+tags: [pks]
 categories:
 - PKS
 - Ops
