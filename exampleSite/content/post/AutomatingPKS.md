@@ -1,14 +1,16 @@
 ---
 title: 'More automation for PKS? '
 date: 2018-07-09 2:29:43 +0000
-tags: [pks]
+tags: []
 categories:
-- PKS
-- Ops
+- Kubernetes
+- DevOps
+- Containers
 description: Some scripts to speed up install/reinstall
-cover: 'https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/aalt.png
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Worked-Fine-In-Dev-Ops-Problem-Now.jpg
 
 ---
+
 If you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :) **
 
 AS most of the interface is API based you just have to use some CLI abilities ;)
