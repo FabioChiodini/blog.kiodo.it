@@ -7,7 +7,7 @@ categories:
 - DevOps
 - Containers
 description: Some scripts to speed up install/reinstall
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/aalt2.png
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/aalt3.jpg
 
 ---
 
