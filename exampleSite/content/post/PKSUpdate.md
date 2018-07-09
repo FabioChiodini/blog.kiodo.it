@@ -99,7 +99,7 @@ So download the 1.5 release of Harbor and update it via Ops Manager.
 
 Click on "Apply Changes" and let BOSH do its magic :)
 
-## NSXT-T Authentication
+## NSX-T Authentication
 
 With this version user/password authentication for NSX-T seems to be gone :O
 
@@ -226,7 +226,7 @@ If (for any strange reason :P) you find yourself in a situation where you are no
 
 ![](/uploads/PKSClusterStuck.png)
 
-You can force the deletion using a command like 
+You can force the deletion using a command like
 
     bosh -d nameofdeployment delete-deployment
 
@@ -244,7 +244,7 @@ You'll have to SSH to PKS instance:
 
 And then clean the database (MariaDB).
 
-A few notes on this procedure.
+A few notes on this procedure:
 
 I was not able to connect to the database using the procedure exposed so I created a config file:
 
@@ -258,9 +258,11 @@ On the command used to delete the records: I used this:
 
     delete from cluster where name = 'k8s-cluster-01'
 
+Notice that I used **'**.
+
 # Conclusion
 
-Lots of new learning stuff but also new goodies to experiment with thanks to this new version. 
+Lots of new learning stuff but also new goodies to experiment with thanks to this new version.
 
 IMHO **the certificate authentication process with NSX-T could be simplified**, something that we will hopefully see in the next versions.
 
