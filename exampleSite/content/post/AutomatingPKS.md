@@ -6,7 +6,7 @@ categories:
 - Kubernetes
 - DevOps
 - Containers
-description: Some scripts to speed up install/reinstall
+description: Some scripts to speed up PKS install/reinstall
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/automate.jpeg
 
 ---
