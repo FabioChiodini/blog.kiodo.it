@@ -8,8 +8,6 @@ categories:
 description: Some scripts to speed up install/reinstall
 cover: 'https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/aalt.png
 
-'
-
 ---
 If you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :) **
 
