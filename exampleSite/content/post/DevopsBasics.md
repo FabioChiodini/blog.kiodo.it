@@ -25,7 +25,7 @@ In this Github repository you can find all the basics:
 * Kubernetes 101 with labs
 * Cloud Foundry 101 with Labs
 
-You have contents for a full week almost thanks to all the work we have done together with some great friends like @mcowger @jonasrosland @clintkitson and many more!!
+You have contents for a full week almost thanks to all the work we have done together with some great friends like **@mcowger @jonasrosland @clintkitson** and many more!!
 
 Enjoy and provide feedback please ;)
 
