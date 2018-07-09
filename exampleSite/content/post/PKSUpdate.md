@@ -254,7 +254,7 @@ And it worked!!
 
 ![](/uploads/MaruiaDBdelete.png)
 
-On the command used to delete the records: I used this:
+On the command used to delete the records, I used this:
 
     delete from cluster where name = 'k8s-cluster-01'
 
