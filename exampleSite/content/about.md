@@ -19,6 +19,16 @@ I have been a **speaker** in many major conferences and when I am not meeting Cu
 
 In essence this blog is another way of enabling people on new topics and hopefully helping them out in adopting **new methodologies** as well as new technologies.
 
+## What's in a blog name?
+
+You may wonder what's this "**Kiodo**" in my blog name. My surname is Chiodini which translates (from Italian to English obviously) roughly in "little nails" (ie the ones that you hit with an hammer) and my nickname has always been Chiodo/Kiodo which translates plainly into nail..
+
+![](/uploads/Kiodo.jpg)
+
+So there you go, You can call me **Kiodo** in the same way all my friends have been doing for Years :)
+
+## Please reach out!!
+
 Of course **feedback is welcomed** so don't hesitate to reach out to me on Twitter @FabioChiodini.
 
 F.
