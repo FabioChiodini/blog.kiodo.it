@@ -20,3 +20,9 @@ In my case I scavenged around for good scripts and I collected them [in one gith
 Here are some notes on how to install the prerequisites for the scripts.
 
 # Powershell
+
+if you are installing on Windows 2012 R2 [this a great guide](http://thesolving.com/virtualization/how-to-install-and-configure-vmware-powercli-version-10/), what I always forget is to allow all scripts
+
+    Set-ExecutionPolicy RemoteSigned
+
+Remember to **execute this as Administrator**
