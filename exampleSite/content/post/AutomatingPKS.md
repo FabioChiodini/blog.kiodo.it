@@ -7,7 +7,7 @@ categories:
 - DevOps
 - Containers
 description: Some scripts to speed up install/reinstall
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/automate.jpg
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/automate.jpeg
 
 ---
 
