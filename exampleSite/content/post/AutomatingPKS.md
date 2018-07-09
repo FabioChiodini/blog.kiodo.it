@@ -11,7 +11,7 @@ cover: 'https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/ima
 '
 
 ---
-if you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :) **
+If you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :) **
 
 AS most of the interface is API based you just have to use some CLI abilities ;)
 
