@@ -1,6 +1,6 @@
 ---
 title: 'More automation for PKS? '
-date: 2018-07-09 12:29:43 +0000
+date: 2018-07-09 2:29:43 +0000
 tags: []
 categories:
 - PKS
@@ -11,7 +11,7 @@ cover: 'https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/ima
 '
 
 ---
-if you are installing PKS more than once or if you need more automation for test environment you can have it with PKS :)
+if you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :) **
 
 AS most of the interface is API based you just have to use some CLI abilities ;)
 
@@ -26,3 +26,5 @@ if you are installing on Windows 2012 R2 [this a great guide](http://thesolving.
     Set-ExecutionPolicy RemoteSigned
 
 Remember to **execute this as Administrator**
+
+More to come!!
