@@ -52,6 +52,12 @@ If you want some notes on how to set PKS (1.0.4) up here they are:
 
 [Setting up PKS Blog post](https://gifted-raman-00870e.netlify.com/post/pksbasics/ "Setting up PKS Blog post")
 
+### OPS Manager version
+
+Check this out (from release notes):
+
+**WARNING:** PKS v1.1.0 does **not** support Ops Manager v2.1.7 and later.
+
 # Upgrade Overview
 
 Here are the high level steps:
