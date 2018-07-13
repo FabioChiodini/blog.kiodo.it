@@ -50,7 +50,7 @@ As you can see my plan is to upgrade a 1.0.4 installation to a 1.1
 
 If you want some notes on how to set PKS (1.0.4) up here they are:
 
-[Setting up PKS Blog post](https://gifted-raman-00870e.netlify.com/post/pksbasics/ "Setting up PKS Blog post")
+[Setting up PKS Blog post](https://blog.kiodo.io/post/pksbasics/ "Setting up PKS Blog post")
 
 ### OPS Manager version
 
