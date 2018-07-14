@@ -19,7 +19,7 @@ In this Github repository you can find all the basics:
 [https://github.com/dotnext/training](https://github.com/dotnext/training "DevOps GeekWeek")
 
 * Basic Terminology/Taxonomy
-* Agile, Cloud-Native, DevOps and all the new terms ;)
+* Agile, Cloud-Native, microservices, continuous integration, DevOps and all the new terms ;)
 * Tools
 * Containers 101 with labs
 * Kubernetes 101 with labs
