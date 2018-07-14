@@ -1,5 +1,5 @@
 ---
-title: 'More automation for PKS? '
+title: 'More automation for Pivotal Container Service? '
 date: 2018-07-09 02:29:43 +0000
 tags: []
 categories:
@@ -10,7 +10,7 @@ description: Some scripts to speed up PKS install/reinstall
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/automate.jpeg
 
 ---
-If you are installing PKS more than once or if you need more automation for test environment **you can have it with PKS :)** 
+If you are installing Pivotal Container Service® (PKS) more than once or if you need more automation for test environment **you can have it with PKS :)**
 
 AS most of the interface is API based you just have to use some CLI abilities ;)
 
@@ -28,4 +28,4 @@ BTW what I always forget is to allow all scripts
 
 Remember to **execute this as Administrator**
 
-More paragraph to come!!
+More paragraphs and links to come!!
