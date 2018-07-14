@@ -14,19 +14,19 @@ description: Tips and Tricks I discovered installing Pivotal Container Services 
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/PKSCover.png
 
 ---
-I like Kubernetes and Containers so I set out to install Pivotal container service (PKS).
+I like Kubernetes and Containers so I set out to install Pivotal Container Service® (PKS).
 
 I followed some good blog posts so I am going to provide link to them and add some commands and tricks that I found useful (just go to the paragraph marked as **my field notes**.
 
 Let's start with the usual **disclaimer** :P This is meant to be as a **Lab/Learning setup** not a production one so if You want to deploy to production You'll have to take into account other non trivial factors depending on your environment (ie Design it properly!! :P )
 
-# What's PKS?
+# What's Pivotal Container Service (PKS)?
 
 Pivotal Container Service (PKS) is a purpose-built product that enables enterprises and service providers to simplify the deployment and operations of Kubernetes clusters. It provides a production-grade Kubernetes distribution with deep VMware NSX-T integration for advanced networking, a built-in private registry with enterprise security features and full life cycle management support of the clusters.
 
 It is not just "yet another Kubernetes distribution" but it provides more a "Kubernetes as service experience.
 
-What do I mean by that? Using an API (PKS API) you can just ask for a Kubernetes Cluster and PKS will provision one for You. Not only that but it will let you manage/upgrade it in Day 1 and 2 and also integrate it with the right networking/monitoring/logging/security add-ons that you need in a production environment.
+What do I mean by that? Using an API (PKS API) you can just ask for a Kubernetes Cluster and Pivotal Container Service will provision one for You. Not only that but it will let you manage/upgrade it in Day 1 and 2 and also integrate it with the right networking/monitoring/logging/security add-ons that you need in a production environment.
 
 If you want more details just go [here](https://content.pivotal.io/blog/secure-multitenant-kubernetes-in-minutes-pivotal-container-service-goes-ga "HERE") or [here ](https://www.youtube.com/watch?v=bQKra0CB5zE)if you like videos better :)
 
@@ -52,13 +52,13 @@ Get some coffee and have a VMware environment available. I used my lab: a few ES
 
 # Installation Overview
 
-If you want to leverage the full power of PKS (ie all integrations) this is the high level install process:
+If you want to leverage the full power of Pivotal Container Service (ie all integrations) this is the high level install process:
 
 * Fix prerequisites
 * Install NSX-T for managing K8S network constructs and add-ons
 * Prepare NSX-T constructs for PKS
 * Install Ops Manager and **BOSH**
-* Install PKS
+* Install Pivotal Container Service
 * Deploy a **Kubernetes Cluster**
 * Install Harbor to **manage container images**
 * Install VMware vRealize Log Insight (vRLI) to get the **logs** from your environment
@@ -67,7 +67,7 @@ If you want to leverage the full power of PKS (ie all integrations) this is the 
 
 # Resources I have used
 
-Here are the blog posts that helped me doing a _manual_ setup of PKS (it can be automated, that will be for another blog post).
+Here are the blog posts that helped me doing a _manual_ setup of Pivotal Container Service (it can be automated, that will be for another blog post).
 
 Full setup as described by William Lam ( @lamw ):
 
