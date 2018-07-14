@@ -13,7 +13,7 @@ description: Tips and Tricks I discovered updating Pivotal Container Services (P
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Update.jpg
 
 ---
-Time to update Pivotal Container Service (PKS)!!
+Time to update Pivotal Container Service® (PKS)!!
 
 In this blog post I'll provide you with **some notes on the upgrade process** and **why I performed the upgrade**.
 
