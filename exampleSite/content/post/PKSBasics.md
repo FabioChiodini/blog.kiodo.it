@@ -103,6 +103,10 @@ Here's a detailed overview of my Lab
 
 As You can see I've collapsed the admin and management network on a single segment (not managed by NSX-T) and I am using BGP pairing with my Lab router to auto propagate route information from NSX-T.
 
+And here are the versions that I installed:
+
+![](/uploads/PKS10Versions.png)
+
 ### BGP Setup
 
 In my setup I am using **Vyatta** as the main router.
