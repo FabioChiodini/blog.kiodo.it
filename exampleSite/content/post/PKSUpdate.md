@@ -131,6 +131,8 @@ You can also check if your certificate is valid from a command line:
 
 ![](/uploads/Certifcate superuser get.png)
 
+**Remember to add the NSX CA to OpsManager: this is REQUIRED.**
+
 ## NSX-T restore
 
 You may find this process useful (as I did) :P
