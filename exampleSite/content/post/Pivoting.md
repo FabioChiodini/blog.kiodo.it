@@ -5,7 +5,7 @@ tags:
 - Blog
 categories: []
 description: '"Change is Constant, Embrace Change"'
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Pivot.jpg
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/Pivot.png
 
 ---
 # I'm Pivot-ing!!
