@@ -28,15 +28,17 @@ Full of family, full of friends, full of new challenges, full of enjoyable activ
 
 This is exactly what I got when I joined EMC (then DellEMC and Dell Technologies): I made a lot of friends and lived with many Teams that became my family over the Years.
 
- 
+![](/uploads/vSpecialistEMEA.png) 
 
-I had a lot of fun in my tenure at EMC with different Teams: Performed crazy demos in front of thousands of people, spent hours on a command line in the Lab, burned the midnight oil to setup vLabs at conferences, recorded innumerable Power Hours sessions, performed impossible POCs, travelled crazy places in the world to make demanding Customers happy and spent infinite hours fighting over tech stuff over email/Slack or chat. I even danced in a video…..
+![](/uploads/AaronMT.png)
+
+I had a lot of fun in my tenure at EMC with different Teams: Performed crazy demos in front of thousands of people, spent hours on a command line in the Lab, burned the midnight oil to setup vLabs at conferences, recorded innumerable Power Hours (ie enablement for hundreds of people) sessions, performed impossible POCs, travelled crazy places in the world to make demanding Customers happy and spent infinite hours fighting over tech stuff over email/Slack or chat. I even _danced in a video_…..
 
 Over these years I've been part of different Tribes (in the Seth Godin's definition) but in my hearth they have all been families. 
 
 And now I am ready for a new challenge :)
 
-I am joining Pivotal as a Platform Architect ([life of a platform architect](https://builttoadapt.io/a-day-in-the-life-of-a-pivotal-platform-architect-e7f823aae1bd)) covering the Alliance with Dell Technologies for EMEA.
+I am joining Pivotal as a **Platform Architect** ([life of a platform architect](https://builttoadapt.io/a-day-in-the-life-of-a-pivotal-platform-architect-e7f823aae1bd)) covering the Alliance with Dell Technologies for EMEA.
 
 The decision was long and well-tought-out (at least this is what my Mindmapping told me :P) but it boils down to three Things (they had to be 3 :P):
 
