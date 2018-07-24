@@ -18,6 +18,8 @@ Today I am leaving Dell Technologies to join Pivotal
 
 > “Every new beginning comes from other beginnings end,” - Seneca
 
+![](/uploads/Beginning.png)
+
 As Seneca says in the quote:
 
 Things begin. Things end. The end of one thing leads to the beginning of another.  As humans we need to keep our lives full. 
@@ -39,6 +41,8 @@ Over these years I've been part of different Tribes (in the Seth Godin's definit
 And now I am ready for a new challenge :)
 
 I am joining Pivotal as a **Platform Architect** ([life of a platform architect](https://builttoadapt.io/a-day-in-the-life-of-a-pivotal-platform-architect-e7f823aae1bd)) covering the Alliance with Dell Technologies for EMEA.
+
+![](/uploads/1280px-Pivotal_Software_logo.svg.png)
 
 The decision was long and well-tought-out (at least this is what my Mindmapping told me :P) but it boils down to three Things (they had to be 3 :P):
 
