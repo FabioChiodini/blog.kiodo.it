@@ -44,7 +44,7 @@ I am joining Pivotal as a **Platform Architect** ([life of a platform architect]
 
 ![](/uploads/1280px-Pivotal_Software_logo.svg.png)
 
-The decision was long and well-tought-out (at least this is what my Mindmapping told me :P) but it boils down to three Things (they had to be 3 :P):
+The decision was long and well-tought-out (at least this is what my Mindmapping told me :P) but it boils down to three Things ([they had to be 3 ](https://en.wikipedia.org/wiki/Rule_of_three_(writing)):P):
 
 * The company culture seems unique: they do what they preach at \*every\* level (Agile FTW)
 * I love their technology but also their way of enabling Customers and I want to understand and practice them even more
