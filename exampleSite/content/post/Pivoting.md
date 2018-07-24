@@ -33,7 +33,7 @@ This is exactly what I got when I joined EMC (then DellEMC and Dell Technologies
 
 ![](/uploads/AaronMT.png)
 
-I had a lot of fun in my tenure at EMC with different Teams: Performed crazy demos in front of thousands of people, spent hours on a command line in the Lab, burned the midnight oil to setup vLabs at conferences, recorded innumerable Power Hours (ie enablement for hundreds of people) sessions, performed impossible POCs, travelled crazy places in the world to make demanding Customers happy and spent infinite hours fighting over tech stuff over email/Slack or chat. I even _danced in a video_…..
+I had a lot of fun in my tenure at EMC (then DellEMC and the Dell Technologies) with different Teams: Performed crazy demos in front of thousands of people, spent hours on a command line in the Lab, burned the midnight oil to setup vLabs at conferences, recorded innumerable Power Hours (ie enablement for hundreds of people) sessions, performed impossible POCs, travelled crazy places in the world to make demanding Customers happy and spent infinite hours fighting over tech stuff over email/Slack or chat. I even _danced in a video_…..
 
 Over these years I've been part of different Tribes (in the Seth Godin's definition) but in my hearth they have all been families. 
 
