@@ -1,6 +1,6 @@
 ---
 title: I'm Pivot-ing!!
-date: 2018-06-18 14:29:43 +0200
+date: 2018-07-16 14:29:43 +0200
 tags:
 - Blog
 categories: []
