@@ -76,6 +76,8 @@ I like Adoption stories and usually VMware IT shows good implementations. In thi
 
 I'll be adding **more sessions in the coming days so come back** ;)
 
+-> Room info will be published on August 20th so.. wait for it and start booking your sessions to have the organizers allocate the best rooms for You ;)
+
 Feel free to reach out to [me ](@FabioChiodini)with **your** suggestions!!
 
 F.
