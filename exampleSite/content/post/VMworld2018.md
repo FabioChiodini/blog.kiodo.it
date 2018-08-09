@@ -66,7 +66,7 @@ If you are up early (not easy in Vegas sometimes ;) You should join me here. We 
 
 CNA2009BU - 11 am
 
-Stateful Apps are now a thing in Kubernetes, so it's time to see them in action. Let's join Simone and Rahul and see how you can bring your Weblogic Apps to Kubernetes (they would fit super nicely on [Pivotal application Service](https://pivotal.io/platform/pivotal-application-service) but still..  :P )
+**Stateful Apps** are now a thing in Kubernetes, so it's time to see them in action. Let's join Simone and Rahul and see how you can bring your **Weblogic Apps to Kubernetes** (they would fit super nicely on [Pivotal application Service](https://pivotal.io/platform/pivotal-application-service) but still..  :P )
 
 ![](/uploads/K8sstateful.png)
 
