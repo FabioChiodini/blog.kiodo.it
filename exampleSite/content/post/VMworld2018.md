@@ -19,3 +19,9 @@ VMworld US will be opening up at the end of August (holiday time for a lot of pe
 But still i wanted to capture e few of the sessions that I plan to attend (and I encourage You to meet me there!!), obviously they are all around DevOps, Kubernetes and Cloud Native Apps :P
 
 ## VMworld Sessions for Monday
+
+**Deploy Enterprise-Grade Kubernetes: Real-World Stories From PKS Customers**
+
+CNA1199PU 2 pm
+
+I like Customer panels and this is the chance to see real life experiences coming from Customers. Mostly around Pivotal Container services but hey.. it's Kubernetes :)
