@@ -6,7 +6,7 @@ categories:
 - Kubernetes
 - DevOps
 - Containers
-description: Some scripts to speed up Pivotal Container Service install/reinstall
+description: My selection of DevOps/K8s/Containers centric sessions at VMworld
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/VMworld2018.jpg
 
 ---
