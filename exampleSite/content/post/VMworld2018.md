@@ -18,6 +18,12 @@ VMworld US will be opening up at the end of August (holiday time for a lot of pe
 
 But still i wanted to capture e few of the sessions that I plan to attend (and I encourage You to meet me there!!), obviously they are all around DevOps, Kubernetes and Cloud Native Apps :P
 
+## VMworld Sessions for Sunday
+
+**What's New with PKS and Emerging Use Cases**
+
+You should join this session just for Cornelia : she is amazing (and passionate about PKS!!) And as a bonus you'll get the latest on how with Vmware and pivotal you can make Kubernetes easy to consume
+
 ## VMworld Sessions for Monday
 
 **Deploy Enterprise-Grade Kubernetes: Real-World Stories From PKS Customers**
@@ -32,4 +38,12 @@ I like Customer panels and this is the chance to see real life experiences comin
 
 CNA1656BU - 12.30 pm
 
-Security can totally stop your Kubernetes deployment. In this talk we will see all the elements composing a Kubernetes infrastructure and how and when you shpould apply security best practices to it.
+Security can totally stop your Kubernetes deployment. In this talk we will see all the elements composing a Kubernetes infrastructure and how and when you should apply security best practices to it.
+
+## VMworld Sessions for Wednesday
+
+**Path to Production: Value Stream Mapping in a DevOps World**
+
+DEV1325BU - 8.30 am
+
+If you are up early (not easy in Vegas sometimes ;) You should join me here. We all love tech but putting Apps in production require people and processes. [Value Stream mapping](https://en.wikipedia.org/wiki/Value_stream_mapping) is amazing if you ask me. Join this session to get the basics and apply it in your enterprise ;)
