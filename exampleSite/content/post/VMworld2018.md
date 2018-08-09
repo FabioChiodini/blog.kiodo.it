@@ -22,6 +22,14 @@ But still i wanted to capture e few of the sessions that I plan to attend (and I
 
 **Deploy Enterprise-Grade Kubernetes: Real-World Stories From PKS Customers**
 
-CNA1199PU 2 pm
+CNA1199PU - 2 pm
 
 I like Customer panels and this is the chance to see real life experiences coming from Customers. Mostly around Pivotal Container services but hey.. it's Kubernetes :)
+
+## VMworld Sessions for Tuesday
+
+**Put a Lid on It: Securing Containers and Kubernetes on vSphere**
+
+CNA1656BU - 12.30 pm
+
+Security can totally stop your Kubernetes deployment. In this talk we will see all the elements composing a Kubernetes infrastructure and how and when you shpould apply security best practices to it.
