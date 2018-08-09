@@ -16,7 +16,9 @@ Conferences, conferences and more conferences!!
 
 VMworld US will be opening up at the end of August (holiday time for a lot of people in EMEA :P)
 
-But still i wanted to capture e few of the sessions that I plan to attend (and I encourage You to meet me there!!), obviously they are all around DevOps, Kubernetes and Cloud Native Apps :P
+But still I wanted to capture a few of the sessions that I plan to attend (and I encourage You to meet me there!!), obviously they are all around DevOps, Kubernetes and Cloud Native Apps :P
+
+There are a lot of sessions around these topics in the [Content Catalogue](https://my.vmworld.com/widget/vmware/vmworld18us/uscatalog?search=pivotal) I've just captured a few for You (and for me to remember :P )
 
 ## VMworld Sessions for Sunday
 
@@ -57,6 +59,18 @@ DEV1325BU - 8.30 am
 If you are up early (not easy in Vegas sometimes ;) You should join me here. We all love tech but putting Apps in production require people and processes. [Value Stream mapping](https://en.wikipedia.org/wiki/Value_stream_mapping) is amazing if you ask me. Join this session to get the basics and apply it in your enterprise ;)
 
 ![](/uploads/VSM.png)
+
+## VMworld Sessions for Thursday
+
+**Have Your Cake and Eat It: VMware IT Adoption of PKS**
+
+CNA1232BU - 10.30 am
+
+Thsi will be on the last day so a lot of coffee will be required :P
+
+I like Adoption stories and usually VMware IT shows good implementations. In this case I am looking forward to getting how they landed Kubernetes in production. Hope we'll be delighted by their setup ;)
+
+![](/uploads/italian-coffee.jpg)
 
 I'll be adding more sessions in the coming days so come back ;)
 
