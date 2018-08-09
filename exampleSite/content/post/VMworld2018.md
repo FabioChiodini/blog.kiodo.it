@@ -68,7 +68,7 @@ If you are up early (not easy in Vegas sometimes ;) You should join me here. We 
 
 CNA1232BU - 10.30 am
 
-Thsi will be on the last day so a lot of coffee will be required :P
+This will be on the last day so a lot of coffee will be required :P
 
 I like Adoption stories and usually VMware IT shows good implementations. In this case I am looking forward to getting how they landed **Kubernetes in production**. Hope we'll be delighted by their setup ;)
 
