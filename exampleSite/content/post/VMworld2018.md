@@ -22,6 +22,8 @@ But still i wanted to capture e few of the sessions that I plan to attend (and I
 
 **What's New with PKS and Emerging Use Cases**
 
+CNA1780QU - 2 pm
+
 You should join this session just for Cornelia : she is amazing (and passionate about PKS!!) And as a bonus you'll get the latest on how with Vmware and pivotal you can make Kubernetes easy to consume
 
 ## VMworld Sessions for Monday
