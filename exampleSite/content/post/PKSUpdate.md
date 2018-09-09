@@ -188,7 +188,11 @@ Harbor uses the following IP blocks for its internal bridges:
 * 172.21.0.1 /16
 * 172.22.0.1 /16
 
-I used 172.14.0.0/24 in my environment.
+Also you should avoid this range that is used by PKS:
+
+* 10.100.200.0/24
+
+I used 172.14.0.0/16 in my environment.
 
 ![](/uploads/New node ip block.png)
 
