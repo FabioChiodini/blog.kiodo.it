@@ -24,11 +24,11 @@ Long story short a "Consultant" was sent to the financial institution where I wa
 
 He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting. 
 
-He was never to be spotted again in our office :P
+He was never to be spotted again in our office.
 
 I know it sounds a lot BOFH-ish style but it's what happened :P
 
-Now off to certificates in 2018 and how they can still be tricky :P
+Now off to certificates in 2018 and how they can still be tricky ;)
 
 # Upgrading Pivotal Container Service to 1.1.5 and NSX-T certificates
 
