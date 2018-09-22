@@ -20,7 +20,13 @@ You may skip this if you want just the tech bytes :P
 
 My love/hate relationship with certificates dates back to Windows Server 2003 times (yes I'm that old :P)
 
-Long story short a "Consultant" was sent to the financial institution where I was a sysadmin. He was the "expert" that was sent to install our Certification authority. He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting. He was never to be spotted again in our office :P
+Long story short a "Consultant" was sent to the financial institution where I was a sysadmin. He was the "expert" that was sent to install our Certification authority. 
+
+He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting. 
+
+He was never to be spotted again in our office :P
+
+I know it sounds a lot BOFH-ish style but it's what happened :P
 
 Now off to certificates in 2018 and how they can still be tricky :P
 
