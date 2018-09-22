@@ -1,16 +1,18 @@
 ---
 title: Updating PKS to 1.1.x More tricks
 date: 2018-09-22 04:29:43 +0200
-tags: []
+tags:
+- PKS
 categories:
 - Kubernetes
-- DevOps
 - Containers
+- Pivotal
+- VMware
 description: Some field notes on upgrading to PKS 1.1.x and NSX-T
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/certificates-certificates-certificates.jpg
 
 ---
-Saturday afternoon after a feverish (literally) week so let's log some new stuff to the blog ;)
+Saturday afternoon after a feverish (literally!!) week so let's log some new stuff to the blog ;)
 
 # Kiodo and Certificates
 
@@ -36,23 +38,33 @@ As usual release notes are your friends so here's an handy link https://docs.piv
 
 An important change
 
-**From PKS 1.1.x you have to configure NSX-T in the Director** tile:
+**From PKS 1.1.x you have to configure NSX-T in the Director** tile (in 1.0.x you had to configure it to "Standard vCenter networking"):
+
+![](/uploads/DirectorNSXT.png)
+
+![](/uploads/DirectorNSXT-2.png)
 
 There are some corner cases where **your update may _seem_ to work even if you do not configure this** so make sure that you do this after configuring the certificates and superuser objects in NSX (as described in here).
 
 When configuring this you may encounter this error:
 
-I found this when using an NSX instance using a self signed certicate.
+![](/uploads/ErrorNSXTCertificate.png)
+
+I found this when using an NSX-T instance using a self signed certificate.
 
 Examining my cert I found out this:
 
+Examining my certificate I found out this (hostname and not FQDN or ip in my cert):
+
+![](/uploads/NSX-T certicate API-2.png)
+
 So the certificate seems to be malformed.
 
-The easy way to fix this was to use this script provided by my good friend Brice (a real ninja when it comes to PKS ;)
+The easy way to fix this was to use this [script ](https://github.com/bdereims/pks-prep/blob/master/nsx-t/4-nsx-cert.sh)provided by my good friend [Brice ](https://twitter.com/bdereims)(a real ninja when it comes to PKS ;) ):
 
-The script not only creates the superuser and related certificates but it also generates a new cert for the NSX Manager (ie the one above) with a proper FQDN
+The script not only creates the superuser and related certificates but it also generates a new cert for the NSX Manager (ie the one above) with a proper FQDN.
 
-Again usual disclaimer: do not DO this in production environments (I assume you have proper certs there!! ;) )
+Again usual disclaimer: **do not DO this in production environments** (I assume you have proper certs there!! ;) )
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** tricks!!
 
