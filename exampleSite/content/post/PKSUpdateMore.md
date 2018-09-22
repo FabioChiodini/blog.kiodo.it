@@ -30,7 +30,7 @@ I know it sounds a lot BOFH-ish style but it's what happened :P
 
 Now off to certificates in 2018 and how they can still be tricky ;)
 
-# Upgrading Pivotal Container Service to 1.1.5 and NSX-T certificates
+# Upgrading Pivotal Container Service to 1.1.x and NSX-T certificates
 
 A quick blog post to hopefully help when you are updating PKS from 1.0.x to 1.1.x ;)
 
@@ -38,7 +38,7 @@ I've recently spent more time with Customers using Pivotal Container Service® (
 
 If you are using NSX-T there a a couple of things that you need to check.
 
-First thing you'll need **NSX-T 2.1 or 2.2** (at the time of writing it is better to upgrade to 1.1.5 that supports [both ](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html#v1.1.5);))
+First thing you'll need **NSX-T 2.1 or 2.2** (at the time of writing it is better to upgrade to the latest version 1.1.5 that supports [both ](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html#v1.1.5);))
 
 As usual release notes are your friends so here's an handy link https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html
 
