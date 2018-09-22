@@ -1,94 +1,59 @@
 ---
-title: 'Updating PKS to 1.1.x More tricks'
-date: 2018-08-09 02:29:43 +0000
+title: Updating PKS to 1.1.x More tricks
+date: 2018-09-22 04:29:43 +0200
 tags: []
 categories:
 - Kubernetes
 - DevOps
 - Containers
-description: My selection of DevOps/K8s/Containers centric sessions at VMworld
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/VMworld2018.jpg
+description: Some field notes on upgrading to PKS 1.1.x and NSX-T
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/certificates-certificates-certificates.jpg
 
 ---
+Saturday afternoon after a feverish (literally) week so let's log some new stuff to the blog ;)
 
-Updating PKS to 1.1.x More tricks
+# Kiodo and Certificates
 
-It's that time of the Year!!
+You may skip this if you want just the tech bytes :P
 
-Conferences, conferences and more conferences!!
+My love/hate relationship with certificates dates back to Windows Server 2003 times (yes I'm that old :P)
 
-VMworld US will be opening up at the end of August (holiday time for a lot of people in EMEA :P)
+Long story short a "Consultant" was sent to the financial institution where I was a sysadmin. He was the "expert" that was sent to install our Certification authority. He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting. He was never to be spotted again in our office :P
 
-But still I wanted to capture a few of the sessions that I plan to attend (and I encourage You to meet me there!!), obviously they are **all around DevOps, Kubernetes and Cloud Native Apps :P**
+Now off to certificates in 2018 and how they can still be tricky :P
 
-There are a lot of sessions around these topics in the [Content Catalogue](https://my.vmworld.com/widget/vmware/vmworld18us/uscatalog?search=pivotal) I've just captured a few for You (and for me to remember :P )
+# Upgrading Pivotal Container Service to 1.1.5 and NSX-T certificates
 
-Please refer to the **bold** sections for a **TLDR version** :P
+A quick blog post to hopefully help when you are updating PKS from 1.0.x to 1.1.x ;)
 
-## VMworld Sessions for Sunday
+I've recently spent more time with Customers using Pivotal Container Service® (PKS) so here are some good notes from the field.
 
-**What's New with PKS and Emerging Use Cases**
+If you are using NSX-T there a a couple of things that you need to check.
 
-CNA1780QU - 2 pm
+First thing you'll need **NSX-T 2.1 or 2.2** (at the time of writing it is better to upgrade to 1.1.5 that supports [both ](https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html#v1.1.5);))
 
-You should join this session just for Cornelia : she is amazing (and so passionate about PKS!!) And as a bonus you'll get the latest on how with VMware and Pivotal you can **make Kubernetes easy to consume**
+As usual release notes are your friends so here's an handy link https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html
 
-![](/uploads/PKS.png)
+An important change
 
-## VMworld Sessions for Monday
+**From PKS 1.1.x you have to configure NSX-T in the Director** tile:
 
-**Deploy Enterprise-Grade Kubernetes: Real-World Stories From PKS Customers**
+There are some corner cases where **your update may _seem_ to work even if you do not configure this** so make sure that you do this after configuring the certificates and superuser objects in NSX (as described in here).
 
-CNA1199PU - 2 pm
+When configuring this you may encounter this error:
 
-I like Customer panels and this is the chance to see **real life experiences coming from Customers adopting Kubernetes**. Mostly around Pivotal Container services but hey.. it's Kubernetes :)
+I found this when using an NSX instance using a self signed certicate.
 
-![](/uploads/Customers.jpg)
+Examining my cert I found out this:
 
-## VMworld Sessions for Tuesday
+So the certificate seems to be malformed.
 
-**Put a Lid on It: Securing Containers and Kubernetes on vSphere**
+The easy way to fix this was to use this script provided by my good friend Brice (a real ninja when it comes to PKS ;)
 
-CNA1656BU - 12.30 pm
+The script not only creates the superuser and related certificates but it also generates a new cert for the NSX Manager (ie the one above) with a proper FQDN
 
-Security can totally stop your Kubernetes deployment. In this talk we will see all the elements composing a **Kubernetes infrastructure** and how and when you should apply **security best practices** to it.
+Again usual disclaimer: do not DO this in production environments (I assume you have proper certs there!! ;) )
 
-![](/uploads/Kubernetes_Security.png)
-
-## VMworld Sessions for Wednesday
-
-**Path to Production: Value Stream Mapping in a DevOps World**
-
-DEV1325BU - 8.30 am
-
-If you are up early (not easy in Vegas sometimes ;) You should join me here. We all love tech but putting Apps in production require people and processes. [Value Stream mapping](https://en.wikipedia.org/wiki/Value_stream_mapping) is amazing if you ask me 8and we have a religion around it at pivotal: it is SUPER effective!!). **Join this session to get the basics and apply it in your enterprise** ;)
-
-![](/uploads/VSM.png)
-
-**Run Stateful Apps on Kubernetes with PKS: Highlight WebLogic Server**
-
-CNA2009BU - 11 am
-
-**Stateful Apps** are now a thing in Kubernetes, so it's time to see them in action. Let's join Simone and Rahul and see how you can bring your **Weblogic Apps to Kubernetes** (they would fit super nicely on [Pivotal application Service](https://pivotal.io/platform/pivotal-application-service) but still..  :P )
-
-![](/uploads/K8sstateful.png)
-
-## VMworld Sessions for Thursday
-
-**Have Your Cake and Eat It: VMware IT Adoption of PKS**
-
-CNA1232BU - 10.30 am
-
-This will be on the last day so a lot of coffee will be required :P
-
-I like Adoption stories and usually VMware IT shows good implementations. In this case I am looking forward to getting how they landed **Kubernetes in production**. Hope we'll be delighted by their setup ;)
-
-![](/uploads/italian-coffee.jpg)
-
-I'll be adding **more sessions in the coming days so come back** ;)
-
--> Room info will be published on August 20th so.. wait for it and start booking your sessions to have the organizers allocate the best rooms for You ;)
-
-Feel free to reach out to [me ](@FabioChiodini)with **your** suggestions!!
+Feel free to reach out to [me ](@FabioChiodini)with **your** tricks!!
 
 F.
