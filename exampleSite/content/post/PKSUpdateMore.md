@@ -57,6 +57,10 @@ This super tool is provided by my good friend [Brice ](https://twitter.com/bdere
 
 To use it populate the variables in the script and execute it AT YOUR OWN RISK.
 
+![](/uploads/CleanIPPools.png)
+
+![](/uploads/CleanIPPools-2.png)
+
 ## An important change
 
 **From PKS 1.1.x you have to configure NSX-T in the Director** tile (in 1.0.x you had to configure it to "Standard vCenter networking"):
@@ -86,6 +90,14 @@ The easy way to fix this was to use this [script ](https://github.com/bdereims/p
 The script not only creates the superuser and related certificates but it also generates a new cert for the NSX Manager (ie the one above) with a proper FQDN.
 
 Again usual disclaimer: **do not DO this in production environments** (I assume you have proper certs there!! ;) )
+
+## A few notes on using the script
+
+The script uses some environment variables that must be populated in an env file that must be present in the root of the git folder tree that you downloaded. Just copy the env-example file and then edit it.
+
+![](/uploads/envBrice.png)
+
+Also make sure that the two variables at the beginning of the script have valid values.
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** tricks!!
 
