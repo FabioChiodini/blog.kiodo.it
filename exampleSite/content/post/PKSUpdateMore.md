@@ -20,9 +20,9 @@ You may skip this if you want just the tech bytes :P
 
 My love/hate relationship with certificates dates back to Windows Server 2003 times (yes I'm that old :P)
 
-Long story short a "Consultant" was sent to the financial institution where I was a sysadmin. He was the "expert" that was sent to install our Certification authority. 
+Long story short a "Consultant" was sent to the financial institution where I was a sysadmin. He was the "expert" that was sent to install our Certification authority.
 
-He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting. 
+He showed up with a W2K3 handbook printed on many lose A4 pages and 20 minutes into the discussion he stated that we had to install the main CA on one of our DCs. That ended the meeting.
 
 He was never to be spotted again in our office.
 
@@ -42,7 +42,7 @@ First thing you'll need **NSX-T 2.1 or 2.2** (at the time of writing it is bette
 
 As usual release notes are your friends so here's an handy link https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html
 
-An important change
+## An important change
 
 **From PKS 1.1.x you have to configure NSX-T in the Director** tile (in 1.0.x you had to configure it to "Standard vCenter networking"):
 
@@ -52,7 +52,9 @@ An important change
 
 There are some corner cases where **your update may _seem_ to work even if you do not configure this** so make sure that you do this after configuring the certificates and superuser objects in NSX (as described in here).
 
-When configuring this you may encounter this error:
+When configuring Ops Manager this you may encounter this error:
+
+"Error connecting to NSX IP: The NSX server's certificate is not signed with the provided NSX CA cert. Please provide the correct NSX CA cert"
 
 ![](/uploads/ErrorNSXTCertificate.png)
 
