@@ -48,11 +48,14 @@ If you are upgrading from 1.0.x and you "experimented" a lot you may have some s
 
 You could use this [script](https://github.com/bdereims/pks-prep/blob/master/nsx-t/99-cleanup.sh) to clean up the ip pools.
 
+Some **important notes BEFORE using this script**:
+
+* You can do this  cleanup only if you have no PKS deployed clusters left.
+* Always make sure you're backing up your NSX-T install frequently ;)
+
 This super tool is provided by my good friend Brice (a real ninja when it comes to PKS ;) ).
 
-To use it populate the variables in the script and execute it AT YOUR OWN RISK
-
-Always make sure you're backing up your NSX-T install frequently ;)
+To use it populate the variables in the script and execute it AT YOUR OWN RISK.
 
 ## An important change
 
