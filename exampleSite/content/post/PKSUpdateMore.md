@@ -60,8 +60,6 @@ When configuring Ops Manager this you may encounter this error:
 
 I found this when using an NSX-T instance using a self signed certificate.
 
-Examining my cert I found out this:
-
 Examining my certificate I found out this (hostname and not FQDN or ip in my cert):
 
 ![](/uploads/NSX-T certicate API-2.png)
