@@ -61,6 +61,8 @@ To use it populate the variables in the script and execute it AT YOUR OWN RISK.
 
 ![](/uploads/CleanIPPools-2.png)
 
+This will free up some ips for your next setup.
+
 ## An important change
 
 **From PKS 1.1.x you have to configure NSX-T in the Director** tile (in 1.0.x you had to configure it to "Standard vCenter networking"):
