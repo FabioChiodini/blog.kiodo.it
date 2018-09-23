@@ -53,7 +53,7 @@ Some **important notes BEFORE using this script**:
 * You can do this  cleanup only if you have no PKS deployed clusters left.
 * Always make sure you're backing up your NSX-T install frequently ;)
 
-This super tool is provided by my good friend Brice (a real ninja when it comes to PKS ;) ).
+This super tool is provided by my good friend [Brice ](https://twitter.com/bdereims)(a real ninja when it comes to PKS ;) ).
 
 To use it populate the variables in the script and execute it AT YOUR OWN RISK.
 
@@ -75,7 +75,7 @@ When configuring Ops Manager this you may encounter this error:
 
 I found this when using an NSX-T instance using a self signed certificate.
 
-Examining my certificate I found out this (hostname and not FQDN or ip in my cert):
+Examining my certificate I found out this (i just had an hostname and not FQDN or ip in my cert):
 
 ![](/uploads/NSX-T certicate API-2.png)
 
