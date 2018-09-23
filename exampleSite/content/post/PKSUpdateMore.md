@@ -95,7 +95,9 @@ Again usual disclaimer: **do not DO this in production environments** (I assume 
 
 ## A few notes on using the script
 
-The script uses some environment variables that must be populated in an env file that must be present in the root of the git folder tree that you downloaded. Just copy the env-example file and then edit it.
+The script uses some environment variables that must be populated in an env file that must be present in the root of the git folder tree that you downloaded.
+
+Just copy the env-example file (in a file named env) and then edit it.
 
 ![](/uploads/envBrice.png)
 
