@@ -42,6 +42,18 @@ First thing you'll need **NSX-T 2.1 or 2.2** (at the time of writing it is bette
 
 As usual release notes are your friends so here's an handy link https://docs.pivotal.io/runtimes/pks/1-1/release-notes.html
 
+## Before the upgrade
+
+If you are upgrading from 1.0.x and you "experimented" a lot you may have some stale data in your NSX-T setup.
+
+You could use this [script](https://github.com/bdereims/pks-prep/blob/master/nsx-t/99-cleanup.sh) to clean up the ip pools.
+
+This super tool is provided by my good friend Brice (a real ninja when it comes to PKS ;) ).
+
+To use it populate the variables in the script and execute it AT YOUR OWN RISK
+
+Always make sure you're backing up your NSX-T install frequently ;)
+
 ## An important change
 
 **From PKS 1.1.x you have to configure NSX-T in the Director** tile (in 1.0.x you had to configure it to "Standard vCenter networking"):
