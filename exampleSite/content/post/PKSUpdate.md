@@ -181,12 +181,12 @@ If you are adding an ip range for nodes and you have Harbor installed please not
 
 Harbor uses the following IP blocks for its internal bridges:
 
-* 172.17.0.1 /16
-* 172.18.0.1 /16
-* 172.19.0.1 /16
-* 172.20.0.1 /16
-* 172.21.0.1 /16
-* 172.22.0.1 /16
+* 172.17.0.0 /16
+* 172.18.0.0 /16
+* 172.19.0.0 /16
+* 172.20.0.0 /16
+* 172.21.0.0 /16
+* 172.22.0.0 /16
 
 Also you should avoid this range that is used by PKS:
 
