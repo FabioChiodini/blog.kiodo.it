@@ -71,7 +71,7 @@ As this was BIOS 1.1.x I first went to 3.x an then up to 6.x
 
 ## **Next steps**
 
-BTW I now have to go through an upgrade using the command line (as VMware Upgrade Manager would see that my hardware is not compliant) so more toil will be required :P
+BTW I now have to go through an upgrade using the command line (as VMware Upgrade Manager would see that my hardware is not compliant) so **more toil** will be required **Yet again** :P
 
 ## Closing Notes
 
