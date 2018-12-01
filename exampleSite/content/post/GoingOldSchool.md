@@ -17,6 +17,8 @@ You may skip this if you want just the tech bytes :P
 
 At pivotal we have this note concepts of the value line (more details [HERE ](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)): it is a fairly simple concept. At some point in time you have to decide at which layer of your stack you'll stop messing up and have somebody did that for You.
 
+![](/uploads/1 ciCUoa6LTD80qD0MEw1FfQ.jpeg)
+
 Unfortunately in my lab I have to do everything and I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)
 
 # Upgrading BIOS to save the Lab
