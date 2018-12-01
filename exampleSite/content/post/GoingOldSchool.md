@@ -31,13 +31,15 @@ This is an example of the value line that You could use when leveraging Pivotal 
 
 ![](/uploads/valueLine.png)
 
+This was my chance ti go (yet again) below the value line and fix hardware issues  that should be mundane in 2018 but which are truly not :P
+
 Unfortunately in my lab I have to do everything from hardware up to code :P And I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)
 
 # Upgrading BIOS to save the Lab
 
-My lab relies on a few servers that are getting old (mainly R610 and R710) and vSphere 6.7 does not **officially** (see this [workaround ](https://www.thehumblelab.com/vsphere-67-homelabs-unsupported-cpu/))so I went out to ebay to buy some X56xx processors and embarked in the hard work of making hardware work properly ;)
+My lab relies on a few servers that are getting old (mainly R610 and R710) and vSphere 6.7 is not **officially** on these models (see this [workaround ](https://www.thehumblelab.com/vsphere-67-homelabs-unsupported-cpu/)) so I went out to ebay to buy some X56xx processors and embarked in the hard work of making hardware work properly ;)
 
-Long story short upgrading BIOS is not always trivial so here are some good notes
+Long story short upgrading BIOS is not always trivial so here are some good notes :)
 
 ## Updating with Dell Boot CD
 
