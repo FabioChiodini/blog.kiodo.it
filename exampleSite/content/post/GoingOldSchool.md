@@ -19,7 +19,19 @@ At pivotal we have this note concepts of the value line (more details [HERE ](ht
 
 ![](/uploads/1 ciCUoa6LTD80qD0MEw1FfQ.jpeg)
 
-Unfortunately in my lab I have to do everything and I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)
+In "Cloud Native World" that could value line should usually stay at the Container as a Service or Platform as a Service layer for **Developers** while **Operators** may focus on what sits on top of a IaaS.
+
+It is very much similar to the old Pizza as a Service vs IaaS/PaaS slide that we all have used to explain the basic of aaS :P
+
+![](/uploads/pizzatru.jpg)
+
+![](/uploads/Pizza.jpg)
+
+This is an example of the value line that You could use when leveraging Pivotal Cloud Foundry:
+
+![](/uploads/valueLine.png)
+
+Unfortunately in my lab I have to do everything from hardware up to code :P And I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)
 
 # Upgrading BIOS to save the Lab
 
