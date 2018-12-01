@@ -27,13 +27,13 @@ It is very much similar to the old Pizza as a Service vs IaaS/PaaS slide that we
 
 ![](/uploads/Pizza.jpg)
 
-This is an example of the value line that You could use when leveraging Pivotal Cloud Foundry:
+This is an example of the value line that You could use when leveraging Pivotal Cloud Foundry (stop at the Container level with PKS or at the code level with PAS):
 
 ![](/uploads/valueLine.png)
 
-This was my chance ti go (yet again) below the value line and fix hardware issues  that should be mundane in 2018 but which are truly not :P
+This was my chance to go (**yet again**) below the value line and fix hardware issues that should be mundane in 2018 but which are truly not :P
 
-Unfortunately in my lab I have to do everything from hardware up to code :P And I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2)
+Unfortunately in my lab I have to do everything from hardware up to code :P And I cannot buy a good thing that would update BIOS and firmware on his own like a good [VxRail](https://content.pivotal.io/blog/automated-ops-freedom-to-innovate-part-2) which could have saved me a lot of hours :P
 
 # Upgrading BIOS to save the Lab
 
