@@ -69,6 +69,12 @@ And then I used this command to force the upgrade:
 
 As this was BIOS 1.1.x I first went to 3.x an then up to 6.x
 
+## **Next steps**
+
+BTW I now have to go through an upgrade using the command line (as VMware Upgrade Manager would see that my hardware is not compliant) so more toil will be required :P
+
+## Closing Notes
+
 That's it: **going below the value line is painful** but it was necessary this time (maybe figuring out the TCO of the whole operation would tell me that it would have been cheaper to buy new hardware but..  :P ).
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** tricks!!
