@@ -39,19 +39,23 @@ Unfortunately in my lab I have to do everything from hardware up to code :P And 
 
 My lab relies on a few servers that are getting old (mainly R610 and R710) and vSphere 6.7 is not **officially** on these models (see this [workaround ](https://www.thehumblelab.com/vsphere-67-homelabs-unsupported-cpu/)) so I went out to ebay to buy some X56xx processors and embarked in the hard work of making hardware work properly ;)
 
+To support these processors you need a 6.x BIOS and some of my systems were not up to date (even if they were running ESXi 6.5 without problems).
+
 Long story short upgrading BIOS is not always trivial so here are some good notes :)
 
 ## Updating with Dell Boot CD
 
 This is fairly easy, just boot up your Dell servers with an ISO image downloaded from [here ](https://www.dell.com/support/article/it/it/itbsdt1/sln296511/updating-dell-poweredge-servers-via-bootable-media-iso?lang=en)and let him do the dirty job :P
 
+![](/uploads/biossplash.jpg)
+
 ## The special one ;)
 
-One of these servers was an Avamar node (repurposed hardware coming from my fine friends at DellEMC so flashing his BIOS was not trivial as the normal procedures did not work
+One of these servers was an Avamar node (repurposed hardware coming from my fine friends at DellEMC) so flashing his BIOS was not trivial as the normal procedures did not work (and the BIOS was soo old like 1.1.x :O )
 
-After googling around for a while I managed to perform the upgrade.
+After googling around for a while I managed to perform the upgrade, so here's how :)
 
-I had to prepare a boot USB with FreeDOS ([HERE ](https://pingtool.org/bootable-dos-iso-bios-upgrade/)for the full procedure) and copy over the files.
+I had to prepare a boot USB with FreeDOS ([HERE ](https://pingtool.org/bootable-dos-iso-bios-upgrade/)for the full procedure) and copy over the files (EXE) to perform a BIOS upgrade (remember the good old days of upgrading a BIOS with floppy? This is much it).
 
 ![](/uploads/BiosR710-3.png)
 
