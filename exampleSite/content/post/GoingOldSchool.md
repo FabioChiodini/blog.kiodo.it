@@ -7,7 +7,7 @@ categories:
 - VMware
 description: Some field notes on how to monitor your Kubernetes cluster with VMware
   vRealize Operations
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/BIOS.jpg
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/DogEye.jpg
 
 ---
 It may sound philosophical but You need visibility in Your Kubernetes environment  especially if you're a n00b :P
