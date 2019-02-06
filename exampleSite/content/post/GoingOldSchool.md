@@ -20,7 +20,9 @@ You may skip this if you want just the tech bytes :P
 
 If You google for 
 
-## Updating with Dell Boot CD
+## Installing the plugin
+
+## Let's configure it
 
 ## **Next steps**
 
