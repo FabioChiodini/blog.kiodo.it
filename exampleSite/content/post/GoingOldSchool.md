@@ -128,6 +128,8 @@ and use the test connection button
 
 Now you just need some patience as the collector will fetch the right data.
 
+Go to dashboard -> Kubernetes dashboard and wait
+
 Here are some screenshots for your viewing pleasure (see how the info builds up nicely over time):
 
 ## **Next steps**
