@@ -132,6 +132,16 @@ Go to dashboard -> Kubernetes dashboard and wait
 
 Here are some screenshots for your viewing pleasure (see how the info builds up nicely over time):
 
+![](/uploads/vRops Install february 2019---11.png)
+
+![](/uploads/vRops Install february 2019---12.png)
+
+![](/uploads/vRops Install february 2019---13.png)
+
+![](/uploads/vRops Install february 2019---14.png)
+
+![](/uploads/vRops Install february 2019---15.png)
+
 ## **Next steps**
 
 I totally plan to test more monitoring options but this is saving my day 
