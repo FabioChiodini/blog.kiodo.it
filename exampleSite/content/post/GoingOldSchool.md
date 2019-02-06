@@ -60,6 +60,14 @@ To see if it is running:
 
 You should see something like this (the fluent-bit one is specific for PKS, we'll talk about it next time but in essence does great stuff collecting your K8s and apps logs :P ):
 
+![](/uploads/kubeds.png)
+
+You should be set.
+
+Just check with a 
+
+That the daemon set is running on the right port (or the one that You chose)
+
 ## Let's configure it
 
 Now click on the gearbox and then edit the configuration
