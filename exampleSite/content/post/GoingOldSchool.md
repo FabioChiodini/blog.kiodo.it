@@ -158,17 +158,17 @@ It totally seems that I **have nodes that are too small, we will fix them at the
 
 I totally plan to test more monitoring options but this is saving my day: I have already discovered that my nodes may be a little bit small.
 
-Long story short I'll resize them automatically by using BOSH 8as I am using PKS that makes my life easier):
+Long story short **I'll resize them automatically by using BOSH** (as I am using PKS that makes my K8s-life easier):
 
-I just have to go to OpsManager, select my plan:
+I just have to go to **OpsManager, select my plan**:
 
 ![](/uploads/BOSHFTW.png)
 
-And then pick one of the many options:
+And then **pick one of the many options** (bigger than the current one):
 
 ![](/uploads/Choicsemany.png)
 
-As soon as I apply my changes the automation will kick in and install fresh new nodes for my cluster gracefully removing the small ones ;)
+As soon as I apply my changes the **automation will kick in and install fresh new nodes for my cluster gracefully removing the small ones** ;)
 
 ## Closing Notes
 
