@@ -24,15 +24,45 @@ If You google for "Kubernetes Monitoring" you'll find an insane number of option
 
 As a recovering VMware admin i want to know which of my VM that is taking Kubernetes workloads is not performing well so I went straight to 
 
-Installing vRealize Operations 7.0 is as easy as deploying an OVA and then just configure username and password. I am going to use the Small setup VM (2 vCPU, 16 GB of ram) and I have configured it to get data from the vCenter hosting my Pivotal container service (PKS) lab
+Installing vRealize Operations 7.0 is as easy as deploying an OVA and then just configure username and password. I am going to use the Small setup VM (2 vCPU, 16 GB of ram) and I have configured it to get data from the vCenter hosting my Pivotal Container Service (PKS) lab:
+
+![](/uploads/vc-flyconfig.png)
+
+Now on to configure it for the Kubernetes part!!
 
 ## Installing the plugin
 
 I am going to use vRealize Operations 7.0 and the latest plugin available because I like fresh stuff (and the installation has changed recently) ;)
 
-So let's download it from the website (you need to sign up to download it)
+So let's download it from the [website ](https://marketplace.vmware.com/vsx/solutions/vrealize-operations-management-pack-for-container-monitoring?ref=related)(you need to sign up to download it). make sure you are using the latest one (1.2).
+
+To add it to vROPs just go to administration and click on Add:
+
+![](/uploads/adminsolution.png)
+
+Now you need to deploy a cAdvisor DaemonSet in the cluster that you want to monitor.
+
+No worries if You don't know what it is: in essence it's a pod that will set on every Kubernetes worker that you have and will be able to fetch data to feed to vROPs.
+
+To deploy it have a look at my file [here](https://github.com/FabioChiodini/kiodo-pks-test/blob/master/vrops/vrops-cadvisor.yaml).
+
+My only customization is that i am using an image that comes straight from my harbor container registry.
+
+So to deploy it just do:
+
+    kubectl apply -f vrops-cadvisor.yaml
+
+On your cluster.
+
+To see if it is running:
+
+    kubectl get daemonset --all-namespaces
+
+You should see something like this (the fluent-bit one is specific for PKS, we'll talk about it next time but in essence does great stuff collecting your K8s and apps logs :P ):
 
 ## Let's configure it
+
+Now click on the gearbox and then edit the configuration
 
 ## **Next steps**
 
