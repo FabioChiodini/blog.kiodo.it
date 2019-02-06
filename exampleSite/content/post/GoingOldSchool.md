@@ -152,7 +152,19 @@ Here are some screenshots for your viewing pleasure (see how the info builds up 
 
 ## **Next steps**
 
-I totally plan to test more monitoring options but this is saving my day 
+I totally plan to test more monitoring options but this is saving my day: I have already discovered that my nodes may be a little bit small.
+
+Long story short I'll resize them automatically by using BOSH 8as I am using PKS that makes my life easier):
+
+I just have to go to OpsManager, select my plan:
+
+![](/uploads/BOSHFTW.png)
+
+And then pick one of the many options:
+
+![](/uploads/Choicsemany.png)
+
+As soon as I apply my changes the automation will kick in and install fresh new nodes for my cluster gracefully removing the small ones ;)
 
 ## Closing Notes
 
