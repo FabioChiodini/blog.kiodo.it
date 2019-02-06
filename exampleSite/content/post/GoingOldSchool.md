@@ -18,13 +18,15 @@ You may skip this if you want just the tech bytes :P
 
 Checking the performances from the vCenter UI was always tricky and mostly a gentle art (I still remember the days of watching esxtop to understand what was going on) but we've moved on luckily!!
 
+![](/uploads/esxtop2.jpg)
+
 # What are the possible choices
 
 If You google for "Kubernetes Monitoring" you'll find an insane number of options but most of them will not be very deep on what is happening at the infrastructure layer.
 
 As a recovering VMware admin i want to know which of my VM that is taking Kubernetes workloads is not performing well so I went straight to 
 
-Installing vRealize Operations 7.0 is as easy as deploying an OVA and then just configure username and password. I am going to use the Small setup VM (2 vCPU, 16 GB of ram) and I have configured it to get data from the vCenter hosting my Pivotal Container Service (PKS) lab:
+Installing **vRealize Operations 7.0** is **as easy as deploying an OVA** and then just configure username and password. I am going to use the Small setup VM (2 vCPU, 16 GB of ram) and I have configured it to get data from the vCenter hosting my Pivotal Container Service (PKS) lab:
 
 ![](/uploads/vc-flyconfig.png)
 
