@@ -88,17 +88,37 @@ Seems like a lot of stuff but let me break it down for you ;)
 
 For the K8s name if you have PKS you can just do this:
 
-pks clusters
+    pks clusters
 
-pkscluster yourclustername
+    pkscluster yourclustername
 
-get the ip and perform an nslookup to check for the right name
+get the ip and perform an nslookup to check for the right name:
+
+![](/uploads/PKSCLI2.png)
 
 Add an https:// in the front and a :8443 in the back and you're good
 
 Now select daemonSet in the next field
 
-Input the port (you have that via the kubectl describe command that we used before)
+Input the port (you have that via the kubectl describe command that we used before). In my case this is the default 31194
+
+Now for the login to the K8s cluster.
+
+Click on the green plus sign.
+
+A popup will open, select Token and use admin as credential name.
+
+![](/uploads/tokenpks.png)
+
+Now go to your kube config file an extract the token suaully this should require a:
+
+    vi ~/.kube/config
+
+The text that You want is just after the id-token: part
+
+![](/uploads/tokenscreen.png)
+
+Click on Ok and use the test configuration button
 
 ## **Next steps**
 
