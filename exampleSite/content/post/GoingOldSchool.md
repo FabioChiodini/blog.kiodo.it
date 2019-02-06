@@ -144,6 +144,12 @@ Here are some screenshots for your viewing pleasure (see how the info builds up 
 
 ![](/uploads/vRops Install february 2019---16.png)
 
+![](/uploads/vRops Install february 2019---17.png)
+
+![](/uploads/vRops Install february 2019---19.png)
+
+![](/uploads/vRops Install february 2019---20.png)
+
 ## **Next steps**
 
 I totally plan to test more monitoring options but this is saving my day 
