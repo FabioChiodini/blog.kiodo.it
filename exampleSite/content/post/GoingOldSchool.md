@@ -66,11 +66,25 @@ You should be set.
 
 Just check with a 
 
+    kubectl describe daemonset vrops-cadvisor --namespace=kube-system
+
 That the daemon set is running on the right port (or the one that You chose)
+
+![](/uploads/kubeds2.png)
+
+Ok the CLI part is DONE, let's switch back to the GUI :P
 
 ## Let's configure it
 
-Now click on the gearbox and then edit the configuration
+Now click on the gearbox and then edit the configuration:
+
+![](/uploads/geark8.png)
+
+Now we will provide the credentials to get to our K8s cluster to vROPS:
+
+![](/uploads/gearconfig.png)
+
+Seems like a lot of stuff but let me break it down for you ;)
 
 ## **Next steps**
 
