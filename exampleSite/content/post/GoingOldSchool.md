@@ -118,7 +118,17 @@ The text that You want is just after the id-token: part
 
 ![](/uploads/tokenscreen.png)
 
-Click on Ok and use the test configuration button
+Click on Ok, you may need to accept the certificate (that's a good sign!!):
+
+![](/uploads/certificateacce.png)
+
+and use the test connection button
+
+![](/uploads/testconn.png)
+
+Now you just need some patience as the collector will fetch the right data.
+
+Here are some screenshots for your viewing pleasure (see how the info builds up nicely over time):
 
 ## **Next steps**
 
