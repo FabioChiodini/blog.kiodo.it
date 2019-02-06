@@ -86,6 +86,20 @@ Now we will provide the credentials to get to our K8s cluster to vROPS:
 
 Seems like a lot of stuff but let me break it down for you ;)
 
+For the K8s name if you have PKS you can just do this:
+
+pks clusters
+
+pkscluster yourclustername
+
+get the ip and perform an nslookup to check for the right name
+
+Add an https:// in the front and a :8443 in the back and you're good
+
+Now select daemonSet in the next field
+
+Input the port (you have that via the kubectl describe command that we used before)
+
 ## **Next steps**
 
 I totally plan to test more monitoring options but this is saving my day 
