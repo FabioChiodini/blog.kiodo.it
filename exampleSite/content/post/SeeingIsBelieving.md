@@ -26,11 +26,13 @@ In this post I'll describe how to **set up monitoring in roughly 15 minutes for 
 
 If You google for "Kubernetes Monitoring" you'll find an insane number of options but most of them will not be very deep on what is happening at the infrastructure layer.
 
-As a recovering VMware admin i want to know which of my VM that is taking Kubernetes workloads is not performing well so I went straight to
+**As a recovering VMware admin I want to know which of my VM that is taking Kubernetes workloads is not performing well** so I went straight to vROPs ;)
 
 Installing **vRealize Operations 7.0** is **as easy as deploying an OVA** and then just configure username and password. I am going to use the Small setup VM (2 vCPU, 16 GB of ram) and I have configured it to get data from the vCenter hosting my Pivotal Container Service (PKS) lab:
 
 ![](/uploads/vc-flyconfig.png)
+
+\[This took just a few clicks and a few minutes, mostly waiting for the OVA deploy\]
 
 Now on to configure it for the Kubernetes part!!
 
@@ -40,13 +42,13 @@ I am going to use vRealize Operations 7.0 and the **latest plugin available** be
 
 So let's download it from the [website ](https://marketplace.vmware.com/vsx/solutions/vrealize-operations-management-pack-for-container-monitoring?ref=related)(you need to sign up to download it). make sure you are using the latest one (1.2).
 
-To add it to vROPs just go to administration and click on Add:
+To add it to vROPs just **go to administration and click on Add**:
 
 ![](/uploads/adminsolution.png)
 
 Now you need to deploy a **cAdvisor DaemonSet** in the cluster that you want to monitor.
 
-No worries if You don't know what it is: in essence it's a pod that will start on every Kubernetes worker that you have and will be able to fetch data to feed to vROPs.
+**No worries if You don't know what it is**: in essence it's a pod that will start on every Kubernetes worker that you have and will be able to fetch data to feed to vROPs.
 
 To deploy it have a look at my file [here](https://github.com/FabioChiodini/kiodo-pks-test/blob/master/vrops/vrops-cadvisor.yaml).
 
@@ -76,7 +78,7 @@ That the daemon set is **running on the right port** (or the one that You chose)
 
 ![](/uploads/kubeds2.png)
 
-Ok the CLI part is DONE, let's switch back to the GUI :P
+Ok the **CLI part is DONE, let's switch back to the GUI** :P
 
 ## Let's configure it
 
