@@ -10,7 +10,7 @@ description: Some field notes on how to monitor your Kubernetes cluster with VMw
 cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/DogEye.jpg
 
 ---
-It may sound philosophical but You need visibility in Your Kubernetes environment  especially if you're a n00b :P
+Thet title may sound philosophical but **You really need visibility in Your Kubernetes environment** especially if you're a n00b :P
 
 # What's going on in my Kubernetes on VMware environment?
 
