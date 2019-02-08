@@ -78,6 +78,8 @@ That the daemon set is **running on the right port** (or the one that You chose)
 
 ![](/uploads/kubeds2.png)
 
+\[In this screenshot you can see **the port on which it is running** and if it's in a deployed status\]
+
 Ok the **CLI part is DONE, let's switch back to the GUI** :P
 
 ## Let's configure it
