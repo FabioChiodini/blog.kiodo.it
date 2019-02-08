@@ -1,6 +1,6 @@
 ---
 title: Seeing is Believing
-date: 2019-02-06 04:29:43 +0100
+date: 2019-02-06 03:29:43 +0000
 tags:
 - PKS
 categories:
@@ -12,13 +12,15 @@ cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/imag
 ---
 It may sound philosophical but You need visibility in Your Kubernetes environment  especially if you're a n00b :P
 
-# What's going on?
+# What's going on in my Kubernetes on VMware environment?
 
 You may skip this if you want just the tech bytes :P
 
 Checking the performances from the vCenter UI was always tricky and mostly a gentle art (I still remember the days of watching esxtop to understand what was going on) but we've moved on luckily!!
 
 ![](/uploads/esxtop2.jpg)
+
+In this post I'll describe how to **set up monitoring in roughly 15 minutes for your Kubernetes clusters**
 
 # What are the possible choices
 
