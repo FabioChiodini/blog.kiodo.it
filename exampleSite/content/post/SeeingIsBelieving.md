@@ -176,6 +176,18 @@ And then **pick one of the many options** (bigger than the current one):
 
 As soon as I apply my changes the **automation will kick in and install fresh new nodes for my cluster gracefully removing the small ones** ;)
 
+## Update 26 Feb 2019
+
+There's a **new plugin available on the marketplace** (version 1.2.1-12305387):
+
+https://marketplace.vmware.com/vsx/solutions/vrealize-operations-management-pack-for-container-monitoring#resources
+
+The procedure for installing and configuring it does not change:
+
+![](/uploads/vropsnewpack.png)
+
+![](/uploads/vrops new pack-3.png)
+
 ## Closing Notes
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** feedback!!
