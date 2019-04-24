@@ -83,6 +83,22 @@ San Polo 3405
 
 Lando 4203
 
+If You want to see how one of the biggest retail on the internet keeps up with the load:
+
+Dell IT’s Digital Apps Transformation Journey With Pivotal PaaS
+
+Abstract
+
+Being a modern, software-led organization means that we’re able to quickly build and run applications on any cloud. To achieve this we needed a cutting-edge platform and implement modern delivery practices—changing the way our teams work across the entire software delivery lifecycle. Discover how Dell IT is leveraging Pivotal Cloud Foundry and agile methodology to drive our application transformation.
+
+**Monday**, Apr 29, 12:00 PM - 1:00 PM
+
+Galileo 903
+
+**Thursday**, May 2, 11:30 AM - 12:30 PM
+
+Toscana 3602
+
 ## Closing Notes
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** feedback and see you at the conference, I'd be happy to chat!!
