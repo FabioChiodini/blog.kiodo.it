@@ -15,7 +15,7 @@ And we're back!! :)
 
 # What's up?
 
-Dell Technologies World 2019 is up. I am furiously getting ready with contents for my two sessions and I am late than ever :P
+[Dell Technologies World 2019](https://delltechnologiesworldonline.com/2019/connect/search.ww#loadSearch-searchPhrase=kubernetes&searchType=session&tc=0&sortBy=&p=&i(10442)=11610) is up. I am furiously getting ready with contents for my two sessions and I am late than ever :P
 
 # MY Sessions
 
@@ -42,6 +42,8 @@ Kubernetes is all the rage, and there are a ton of tools to deploy it. There are
 I have demos for both sessions so if You like them get along and join me ;)
 
 ![](/uploads/9.png)
+
+I have new ones coming from [my video series](https://www.youtube.com/playlist?list=PLT1zSnR1i6dz9RVMfFUfhk6MtFPCuKuRs) so get ready ;)
 
 # More sessions from Pivotal
 
