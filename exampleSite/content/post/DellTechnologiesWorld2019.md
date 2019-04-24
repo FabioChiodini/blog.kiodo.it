@@ -8,7 +8,7 @@ categories:
 - VMware
 - DellEMC
 description: Dell Technologies World 2019 is back with great sessions
-cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/DogEye.jpg
+cover: https://raw.githubusercontent.com/FabioChiodini/blog.kiodo.it/master/images/DTW19_socshare.jpg
 
 ---
 And we're back!! :)
