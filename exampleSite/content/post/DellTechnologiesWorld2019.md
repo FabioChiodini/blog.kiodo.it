@@ -43,6 +43,46 @@ I have demos for both sessions so if You like them get along and join me ;)
 
 I won't be the only Pivot at the event so here's even more fun for You:
 
+If you want more Kubernetes:
+
+**Kubernetes: Addressing The Real World Challenges**
+
+Abstract
+
+Kubernetes is one of the fastest growing open source technologies, but real world production usage has yet to catch up with the hype. In this panel discussion we'll examine what the role of Kubernetes should be as part of your Application Transformation strategy, explore some of the challenges to consider when deploying it in the real world and share best practices for how to overcome those challenges. You'll leave this session armed with the practical knowledge you need to see through the Kubernetes hype and understand the limitations so you can safely deploy it in production.
+
+Tuesday, Apr 30, 1:30 PM - 2:30 PM
+
+–Murano 3203
+
+If You want to meet the one and only Chad:
+
+**Kubernetes: Addressing The Real World Challenges**
+
+Abstract
+
+Kubernetes is one of the fastest growing open source technologies, but real world production usage has yet to catch up with the hype. In this panel discussion we'll examine what the role of Kubernetes should be as part of your Application Transformation strategy, explore some of the challenges to consider when deploying it in the real world and share best practices for how to overcome those challenges. You'll leave this session armed with the practical knowledge you need to see through the Kubernetes hype and understand the limitations so you can safely deploy it in production.
+
+Tuesday, Apr 30, 1:30 PM - 2:30 PM
+
+Murano 3203
+
+If You want to see one of our awesome Customers putting everything cool in production:
+
+**The Evolution Of IT At T. Mobile From IaaS To PaaS To CaaS To FaaS**
+
+Abstract
+
+At T. Mobile, the IT team is dedicated to innovation through experimentation. Each phase of building application deployment options for the company has undergone rigorous evaluation and testing which has lead to significant culture change. Digital transformation has enabled T.Mobile to achieve business accomplishments which have fundamentally altered and improved the business model and service offerings for T.Mobile customers. In this session, learn about T.Mobile’s evolution through IaaS to PaaS to CaaS and current experiments with FaaS platforms from their platform architect. Learn the guidelines which determine the right abstraction for each cloud based platform, both public and private. Learn about the partnership and symbiosis between the Data Center and Platform teams which has stretched and grown to help resolve challenges delivering SW and managing it within a hybrid cloud architecture.
+
+**Monday**, Apr 29, 4:30 PM - 5:30 PM
+
+San Polo 3405
+
+**Wednesday**, May 1, 8:30 AM - 9:30 AM
+
+Lando 4203
+
 ## Closing Notes
 
 Feel free to reach out to [me ](@FabioChiodini)with **your** feedback and see you at the conference, I'd be happy to chat!!
