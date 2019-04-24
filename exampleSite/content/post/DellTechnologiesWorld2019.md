@@ -41,7 +41,7 @@ Kubernetes is all the rage, and there are a ton of tools to deploy it. There are
 
 I have demos for both sessions so if You like them get along and join me ;)
 
-![](/uploads/9.png)
+![](/uploads/9.jpg)
 
 I have new ones coming from [my video series](https://www.youtube.com/playlist?list=PLT1zSnR1i6dz9RVMfFUfhk6MtFPCuKuRs) so get ready ;)
 
