@@ -17,6 +17,8 @@ And we're back!! :)
 
 [Dell Technologies World 2019](https://delltechnologiesworldonline.com/2019/connect/search.ww#loadSearch-searchPhrase=kubernetes&searchType=session&tc=0&sortBy=&p=&i(10442)=11610) is up. I am furiously getting ready with contents for my two sessions and I am late than ever :P
 
+![](/uploads/hero_video_dtw19.jpg)
+
 # MY Sessions
 
 Three sessions on my plate this year. Here they are without further ado ;)
