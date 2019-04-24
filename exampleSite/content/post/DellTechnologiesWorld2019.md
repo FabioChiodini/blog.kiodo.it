@@ -41,6 +41,8 @@ Kubernetes is all the rage, and there are a ton of tools to deploy it. There are
 
 I have demos for both sessions so if You like them get along and join me ;)
 
+![](/uploads/9.png)
+
 # More sessions from Pivotal
 
 I won't be the only Pivot at the event so here's even more fun for You:
@@ -53,9 +55,9 @@ Abstract
 
 Kubernetes is one of the fastest growing open source technologies, but real world production usage has yet to catch up with the hype. In this panel discussion we'll examine what the role of Kubernetes should be as part of your Application Transformation strategy, explore some of the challenges to consider when deploying it in the real world and share best practices for how to overcome those challenges. You'll leave this session armed with the practical knowledge you need to see through the Kubernetes hype and understand the limitations so you can safely deploy it in production.
 
-Tuesday, Apr 30, 1:30 PM - 2:30 PM
+**Tuesday**, Apr 30, 1:30 PM - 2:30 PM
 
-–Murano 3203
+Murano 3203
 
 If You want to meet the one and only Chad:
 
