@@ -121,6 +121,24 @@ Monday, Apr 29, 8:30 AM - 9:30 AM
 
 Murano 3201A
 
+## One session on Storage :P
+
+Shout-out to my good friend [Itzik](https://xtremio.me/)!! In this session You'll see the latest on the CSI and hopefully some good stuff from our own PKS ;)
+
+**Dell EMC Storage Portfolio: Welcome To The Containerized World!**
+
+Abstract
+
+Are you starting to work with Kubernetes or may be Pivotal Container Service (PKS) or RedHat OpenShift? Do you want to learn how containers are changing the virtualization landscape and what it means for your storage platform? Then this is the right session for you! In this session, we are going to showcase the long strides the containers ecosystem has made in just a few years along with how to provide a persistent storage layer for your containers. We will discuss Dell EMC Storage integrations for the container ecosystem, complete with XtremIO integration demonstrations.
+
+**Monday**, Apr 29, 8:30 AM - 9:30 AM – Delfino 4003
+
+**Wednesday**, May 1, 12:00 PM - 1:00 PM – Murano 3205
+
+And here's the Team behind this:
+
+![](/uploads/img_2512.jpg)
+
 # And don't miss this!!
 
 Cornelia is one of my favorite presenters so You cannot miss this:
