@@ -73,6 +73,8 @@ Tuesday, Apr 30, 1:30 PM - 2:30 PM
 
 Murano 3203
 
+![](/uploads/20171026_092428.jpg)
+
 If You want to see one of our awesome Customers putting everything cool in production:
 
 **The Evolution Of IT At T. Mobile From IaaS To PaaS To CaaS To FaaS**
@@ -128,6 +130,8 @@ Leveraging multiple clouds alongside on-prem is becoming popular, but how can yo
 Tuesday, Apr 30, 12:00 PM - 1:00 PM– Lido 3005
 
 Speakers: **Cornelia Davis**, Pivotal; Mark Lohmeyer, VMware; Gil Shneorson, Dell EMC; Arthur Lent, Dell EMC
+
+![](/uploads/u_z9R_zv_400x400.jpg)
 
 ## Closing Notes
 
