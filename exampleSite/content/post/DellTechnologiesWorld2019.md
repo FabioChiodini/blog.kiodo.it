@@ -29,6 +29,8 @@ In the Digital Future, organizations implement Cloud Native Architectures more t
 
 Murano 3203
 
+![](/uploads/run-512.png)
+
 **Infrastructure Design For Kubernetes** 
 
 Kubernetes is all the rage, and there are a ton of tools to deploy it. There are installers, cloud managed setups, full distributions like PKS, etc. But there’s always the question - beyond the software aspect, what do I need to build and provide for a successful container orchestration environment? Host types? What about storage? Networking? Load balancing? Attendees of this session will walk away with and understanding of the considerations in choosing compute platforms to run containers, along with storage systems (what is CSI anyways?), networking and load balancing. Think of this as ‘K8S for infrastructure folks’
@@ -98,6 +100,30 @@ Galileo 903
 **Thursday**, May 2, 11:30 AM - 12:30 PM
 
 Toscana 3602
+
+Do You needs the bets solution on premises to run cloud native workloads? here's the session for You:
+
+**How To Improve Scale, Sustainability, Security & Speed All While Driving Savings**
+
+Abstract
+
+What is the economic cost of the delay in getting new features to production? Once the feature is in production do you have trouble handling increased load? Does the business experience down time? Do you know where you are vulnerable to attack? To effectively leverage the beauty of ZERO downtime on-premises, the key factor is to ensure all lower levels of infrastructure are up-to-date, secure and stable. In this session we will discuss a full-stack Cloud Native solution which brings the best of Dell Technologies in one.
+
+Monday, Apr 29, 8:30 AM - 9:30 AM
+
+Murano 3201A
+
+# And don't miss this!!
+
+Cornelia is one of my favorite presenters so You cannot miss this:
+
+**Birds of a Feather: How To Build A Resilient, Protected & Affordable Multi-Cloud IT Environment**
+
+Leveraging multiple clouds alongside on-prem is becoming popular, but how can you ensure such environments are resilient, protected and affordable. This panel of experts across the Dell Technologies family including our esteemed K8s expert Cornelia Davis, will discuss how to build a hybrid/multi-cloud environment in a way that makes it ready for prime-time.
+
+Tuesday, Apr 30, 12:00 PM - 1:00 PM– Lido 3005
+
+Speakers: **Cornelia Davis**, Pivotal; Mark Lohmeyer, VMware; Gil Shneorson, Dell EMC; Arthur Lent, Dell EMC
 
 ## Closing Notes
 
